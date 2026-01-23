@@ -1,12 +1,12 @@
 ---
 name: flight-search
-description: Find cheapest flights using 7 strategies
-allowed-tools: mcp__plugin_playwright_playwright__*
+description: Find cheapest flights using 8 strategies including award miles and hidden city
+allowed-tools: mcp__plugin_playwright_playwright__*, Bash
 ---
 
 # Flight Search Skill
 
-Find the cheapest flights by executing 7 money-saving strategies in parallel.
+Find the cheapest flights using 8 money-saving strategies, including award flights with miles/points and hidden city ticketing.
 
 ## Usage
 
@@ -19,6 +19,8 @@ Find the cheapest flights by executing 7 money-saving strategies in parallel.
 - `/flight-search LAX to London on April 10-17`
 - `/flight-search NYC to Tokyo on March 20 +/-3 days`
 - `/flight-search BOS to Miami flexible dates in April`
+- `/flight-search SFO to Tokyo using points` - Award flight search
+- `/flight-search JFK to LAX hidden city` - Include skiplagged routes
 
 ### Flexible Date Search
 
@@ -54,6 +56,14 @@ Directly search budget airlines (Southwest, Spirit, Frontier, Ryanair, EasyJet) 
 ### 7. Error Fare Monitor
 Check deal sites and forums for pricing mistakes. Error fares can offer 50-90% savings but may be cancelled.
 
+### 8. Award Flight Search (NEW)
+Search for flights using airline miles and credit card points. Integrates with:
+- **Skiplagged API** - Hidden city ticketing + cash price baseline
+- **Flightplan** - Award availability for AC, AS, BA, CX, KE, NH, SQ
+- **AwardWiz scrapers** - AA, Delta, United, Southwest, JetBlue, Alaska
+
+Returns points required, taxes, value per point, and transfer partner recommendations.
+
 ## How It Works
 
 1. **Parse Input** - Extract origin, destination, dates, and flexibility window
@@ -84,3 +94,38 @@ Results include:
 - Strategy that found it
 - Direct booking link
 - Risk warnings (if applicable)
+
+### Award Search Output
+
+When using `using points`:
+- Miles required per program
+- Taxes and fees
+- Value per point (cents)
+- Transfer partners (Chase UR, Amex MR, etc.)
+- Saver vs standard availability
+- Recommendation (use points or pay cash)
+
+## Integrated Tools
+
+| Tool | Source | Purpose |
+|------|--------|---------|
+| [skiplagged-node-api](https://github.com/krishnaglick/skiplagged-node-api) | `integrations/` | Hidden city + cash prices |
+| [flightplan](https://github.com/flightplan-tool/flightplan) | `integrations/` | Award inventory (7 airlines) |
+| [awardwiz](https://github.com/lg/awardwiz) | `integrations/` | US airline award search |
+| [flights-mcp](https://github.com/ravinahp/flights-mcp) | `integrations/` | Duffel API (optional) |
+
+### Skiplagged Hidden City
+
+Enable with `hidden city` flag to find routes where your destination is a layover:
+```
+JFK → DEN direct: $450
+JFK → DEN → SLC: $285 (deplaning at DEN saves 37%)
+```
+
+**Restrictions:** One-way only, no checked bags, may violate airline ToS.
+
+### Award Programs Supported
+
+**Via Flightplan:** Aeroplan, Alaska, British Airways, Cathay AsiaMiles, Korean SKYPASS, ANA Mileage Club, Singapore KrisFlyer
+
+**Via AwardWiz:** American AAdvantage, Delta SkyMiles, United MileagePlus, Southwest Rapid Rewards, JetBlue TrueBlue, Alaska Mileage Plan
