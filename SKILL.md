@@ -11,13 +11,23 @@ Find the cheapest flights by executing 7 money-saving strategies in parallel.
 ## Usage
 
 ```
-/flight-search [origin] to [destination] on [dates]
+/flight-search [origin] to [destination] on [dates] [options]
 ```
 
 **Examples:**
 - `/flight-search SFO to JFK on March 15`
 - `/flight-search LAX to London on April 10-17`
-- `/flight-search NYC to Tokyo on flexible dates in May`
+- `/flight-search NYC to Tokyo on March 20 +/-3 days`
+- `/flight-search BOS to Miami flexible dates in April`
+
+### Flexible Date Search
+
+Add `+/-N days` to check a date window and find the cheapest option:
+- `+/-1` checks 3 dates (day before, target, day after)
+- `+/-3` checks 7 dates (recommended for best savings)
+- `flexible` or `flex` auto-expands to +/-3 days
+
+The search returns a **date matrix** showing prices for each combination, highlighting the cheapest departure/return pair.
 
 ## Strategies
 
@@ -46,10 +56,24 @@ Check deal sites and forums for pricing mistakes. Error fares can offer 50-90% s
 
 ## How It Works
 
-1. **Parse Input** - Extract origin, destination, and dates (supports natural language)
-2. **Execute Strategies** - Run all 7 strategies concurrently (30s timeout each)
-3. **Aggregate Results** - Deduplicate and score by price, stops, duration, reliability
-4. **Present Findings** - Show top 10 results with booking links and any warnings
+1. **Parse Input** - Extract origin, destination, dates, and flexibility window
+2. **Build Date Matrix** - If flexible dates specified, generate all date combinations
+3. **Execute Strategies** - Run strategies in parallel across date combinations
+4. **Price Comparison** - Build matrix showing price by departure/return date
+5. **Aggregate Results** - Deduplicate and score by price, stops, duration, reliability
+6. **Present Findings** - Show cheapest dates + top 10 results with booking links
+
+### Date Matrix Output (when using +/- days)
+
+```
+         | Return Mar 22 | Return Mar 23 | Return Mar 24
+---------|---------------|---------------|---------------
+Dep 3/15 |     $342      |     $358      |     $401
+Dep 3/16 |     $289 ★    |     $312      |     $378
+Dep 3/17 |     $315      |     $298      |     $356
+
+★ Best price: Depart Mar 16, Return Mar 22 = $289
+```
 
 ## Output
 
