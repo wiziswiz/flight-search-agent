@@ -1,0 +1,82 @@
+# Flight Search Agent
+
+Project memory and context for the flight-search skill.
+
+## Architecture
+
+```
+Claude Code (Orchestrator)
+    ├── SKILL.md (entry point)
+    ├── strategies/ (7 strategy implementations)
+    │   ├── 01-hidden-city.md
+    │   ├── 02-price-manipulation.md
+    │   ├── 03-geo-pricing.md
+    │   ├── 04-flexible-dates.md
+    │   ├── 05-alternative-airports.md
+    │   ├── 06-budget-carriers.md
+    │   └── 07-error-fares.md
+    └── Playwright MCP (browser automation)
+```
+
+## Strategy Comparison
+
+| Strategy | Potential Savings | Risk Level | Reliability |
+|----------|------------------|------------|-------------|
+| Hidden City | 20-50% | Medium | High |
+| Price Manipulation | 5-15% | Low | High |
+| Geo-Pricing | 10-30% | Low | Medium |
+| Flexible Dates | 15-40% | None | High |
+| Alt Airports | 10-25% | None | High |
+| Budget Carriers | 20-60% | Low | High |
+| Error Fares | 50-90% | High | Low |
+
+## Development Guidelines
+
+### Strategy Implementation Pattern
+
+Each strategy should:
+1. Accept: `origin`, `destination`, `dates` parameters
+2. Return: Array of `FlightResult` objects
+3. Handle: Timeouts gracefully (30s max)
+4. Include: Source attribution for each result
+
+### FlightResult Interface
+
+```typescript
+interface FlightResult {
+  price: number;
+  currency: string;
+  airline: string;
+  route: string[];
+  stops: number;
+  departure: string;
+  arrival: string;
+  duration: string;
+  strategy: string;
+  bookingUrl: string;
+  warnings?: string[];
+  confidence: 'high' | 'medium' | 'low';
+}
+```
+
+## Key Design Decisions
+
+- **Parallel Execution**: All strategies run concurrently for speed
+- **Result Normalization**: Convert all prices to user's currency for comparison
+- **Graceful Degradation**: If a strategy fails/times out, continue with others
+- **Deduplication**: Same flight from multiple strategies shown once with best price
+
+## Limitations
+
+- Cannot book flights directly (provides links only)
+- Some strategies may trigger rate limiting
+- Error fares may be cancelled by airlines
+- Hidden city itineraries can't be used with checked bags or round trips
+
+## Future Enhancements
+
+- [ ] Price alerts and monitoring over time
+- [ ] Historical price analytics
+- [ ] Multi-city and complex itineraries
+- [ ] Loyalty program integration
+- [ ] Carbon footprint comparison
