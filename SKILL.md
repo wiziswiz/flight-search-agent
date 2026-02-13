@@ -56,13 +56,20 @@ Directly search budget airlines (Southwest, Spirit, Frontier, Ryanair, EasyJet) 
 ### 7. Error Fare Monitor
 Check deal sites and forums for pricing mistakes. Error fares can offer 50-90% savings but may be cancelled.
 
-### 8. Award Flight Search (NEW)
-Search for flights using airline miles and credit card points. Integrates with:
-- **Custom Hidden City Engine** - Hidden city ticketing + cash price baseline
-- **Flightplan** - Award availability for AC, AS, BA, CX, KE, NH, SQ
-- **AwardWiz scrapers** - AA, Delta, United, Southwest, JetBlue, Alaska
+### 8. Award Flight Search (REAL DATA)
+Search for flights using airline miles and credit card points. **Uses real data via tiered architecture:**
 
-Returns points required, taxes, value per point, and transfer partner recommendations.
+**Tier 1: SerpAPI Google Flights** — Fetches real cash prices, cross-references with sweet spots DB to compute actual value-per-point (cpp). Requires `SERP_API_KEY` env var.
+
+**Tier 2: Airline Website Scraping** — Scrapes united.com, aa.com, delta.com award pages via Playwright MCP (framework ready, invoked by orchestrator).
+
+**Tier 3: points.me Free Tier** — Scrapes points.me search results via Playwright for availability SerpAPI misses.
+
+**Tier 4: Sweet Spots DB Estimates** — Falls back to the 25+ known sweet spots, clearly labeled as "estimated" when no real data available.
+
+**User Points Profile** — Accepts `--programs` and `--balances` to filter results by what you can actually book, with transfer partner recommendations (e.g., "Transfer 60k Chase UR → United to book this").
+
+Returns: program, miles_required, taxes_fees, cash_equivalent, value_per_point, availability, booking_url, confidence, source, transfer_partners, booking_paths.
 
 ## How It Works
 
@@ -96,6 +103,7 @@ scripts/flight-search.py LAX JFK 2026-03-15 --return 2026-03-22 --flex 3 --inclu
 scripts/search-google-flights.py LAX JFK 2026-03-15 --flex 3 --pretty
 scripts/search-hidden-city.py LAX JFK 2026-03-15 --pretty  
 scripts/search-awards.py LAX NRT 2026-03-15 --program united --pretty
+scripts/search-awards.py LAX NRT 2026-03-15 --programs chase-ur,united --balances 80000,45000 --pretty
 scripts/search-budget.py LAX JFK 2026-03-15 --pretty
 scripts/search-alt-airports.py LAX JFK 2026-03-15 --matrix --pretty
 ```
@@ -136,10 +144,13 @@ Results include:
 When using `using points`:
 - Miles required per program
 - Taxes and fees
-- Value per point (cents)
-- Transfer partners (Chase UR, Amex MR, etc.)
-- Saver vs standard availability
-- Recommendation (use points or pay cash)
+- Cash equivalent (real from SerpAPI or estimated)
+- Value per point in cents (cpp)
+- Data source label: `serpapi-validated`, `serpapi-estimated`, `airline-direct`, `points-me`, `estimated`
+- Transfer partners with transfer paths (e.g., "Chase UR → United at 1:1")
+- Booking paths showing exactly how to book with your points
+- Confidence level: high/medium/low
+- Recommendation (use points or pay cash, with real/estimated label)
 
 ## Technical Implementation
 
@@ -180,14 +191,23 @@ Free tier provides 100 searches/month. Without it, uses estimated pricing.
 }
 ```
 
-### Award Search Integration
+### Award Search Integration (Real Data)
+
+**Tiered data architecture** — no mock/random data:
+
+1. **SerpAPI Google Flights** (Tier 1): Fetches actual cash prices for economy + business class on the route. Cross-references with sweet spots DB to calculate real cpp.
+2. **Airline Scraping** (Tier 2): Framework for Playwright-based scraping of united.com, aa.com, delta.com award pages.
+3. **points.me** (Tier 3): Framework for scraping the free points.me search tool.
+4. **Sweet Spots DB** (Tier 4): 25+ known excellent-value redemptions as fallback, clearly labeled.
+
+**Transfer partner intelligence**: Full mapping of Chase UR, Amex MR, Capital One, Citi TYP, and Bilt transfer partners with ratios.
+
+**User profile support**: `--programs chase-ur,united --balances 80000,45000` annotates each result with whether you can afford it and the cheapest transfer path.
 
 Uses **sweet spots database** (`data/award-sweet-spots.json`) with 25+ known excellent-value award redemptions:
 - ANA First Class via Virgin Atlantic (55K miles)
 - Cathay First via Alaska (70K miles)  
 - Turkish Business via United (45K miles)
-
-Calculates **cents per point (CPP)** and recommends whether to use points or pay cash.
 
 ### Alternative Airports
 

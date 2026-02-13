@@ -126,6 +126,12 @@ def run_search_strategy(strategy, origin, destination, depart_date, return_date=
         if strategy == 'awards' and kwargs.get('program'):
             cmd.extend(['--program', kwargs['program']])
         
+        if strategy == 'awards' and kwargs.get('programs'):
+            cmd.extend(['--programs', kwargs['programs']])
+        
+        if strategy == 'awards' and kwargs.get('balances'):
+            cmd.extend(['--balances', kwargs['balances']])
+        
         if strategy == 'alt-airports' and kwargs.get('matrix'):
             cmd.append('--matrix')
         
@@ -342,6 +348,8 @@ def main():
     parser.add_argument('--include-budget', action='store_true', help='Include budget carriers')
     parser.add_argument('--include-alt-airports', action='store_true', help='Include alternative airports')
     parser.add_argument('--program', help='Specific loyalty program for awards')
+    parser.add_argument('--programs', help='Comma-separated loyalty programs (e.g., "chase-ur,united,amex-mr")')
+    parser.add_argument('--balances', help='Comma-separated balances matching --programs (e.g., "80000,45000,120000")')
     
     # Natural language input (alternative to structured)
     parser.add_argument('--natural', nargs='*', help='Natural language search query')
@@ -408,7 +416,9 @@ def main():
             'flexible_days': flex,
             'include_awards': include_awards,
             'include_alternative_airports': include_alternative_airports,
-            'program': args.program
+            'program': args.program,
+            'programs': getattr(args, 'programs', None),
+            'balances': getattr(args, 'balances', None),
         }
         
         search_results = run_parallel_searches(
