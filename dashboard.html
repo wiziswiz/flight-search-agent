@@ -284,32 +284,104 @@ const bookingUrls = {
 const flights = {
   economy: {
     cash: [
-      { airline: 'United', price: 667, route: 'via EWR', stops: 1, duration: '23h 10m', durationMin: 1390, type: 'cash' },
-      { airline: 'Air Canada', price: 670, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, type: 'cash' },
-      { airline: 'Turkish', price: 738, route: 'via IST', stops: 1, duration: '19h 20m', durationMin: 1160, type: 'cash' },
-      { airline: 'Qatar', price: 820, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, type: 'cash' },
-      { airline: 'Emirates', price: 983, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, type: 'cash' },
+      { airline: 'United', price: 667, route: 'via EWR', stops: 1, duration: '23h 10m', durationMin: 1390, type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'EWR', flights: 'UA 2631 → UA 48', depart: 'Apr 28 11:30p', arrive: 'Apr 30 1:40a+2', duration: '23h 10m', price: '$334' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'EWR', flights: 'UA 49 → UA 1183', depart: 'May 4 2:30a', arrive: 'May 4 12:45p', duration: '21h 15m', price: '$333' }
+        ]},
+      { airline: 'Air Canada', price: 670, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'YYZ', flights: 'AC 792 → AC 56', depart: 'Apr 28 10:15p', arrive: 'Apr 29 10:35p+1', duration: '21h 20m', price: '$335' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'YYZ', flights: 'AC 57 → AC 791', depart: 'May 4 8:10a', arrive: 'May 4 4:30p', duration: '19h 20m', price: '$335' }
+        ]},
+      { airline: 'Turkish', price: 738, route: 'via IST', stops: 1, duration: '19h 20m', durationMin: 1160, type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'IST', flights: 'TK 10 → TK 764', depart: 'Apr 28 10:25p', arrive: 'Apr 29 6:45p+1', duration: '19h 20m', price: '$369' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'IST', flights: 'TK 763 → TK 9', depart: 'May 4 3:30a', arrive: 'May 4 11:15a', duration: '18h 45m', price: '$369' }
+        ]},
+      { airline: 'Qatar', price: 820, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'DOH', flights: 'QR 740 → QR 1028', depart: 'Apr 28 2:45a', arrive: 'Apr 28 9:50p', duration: '18h 5m', price: '$410' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'DOH', flights: 'QR 1029 → QR 739', depart: 'May 4 2:50p', arrive: 'May 5 12:10a', duration: '17h 20m', price: '$410' }
+        ]},
+      { airline: 'Emirates', price: 983, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: null, flights: 'EK 216', depart: 'Apr 28 4:30p', arrive: 'Apr 29 3:20p+1', duration: '15h 50m', price: '$492' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: null, flights: 'EK 215', depart: 'May 4 8:30a', arrive: 'May 4 1:05p', duration: '16h 35m', price: '$491' }
+        ]},
     ],
     award: [
-      { program: 'Alaska', airline: 'Emirates', miles: '85K', taxes: 30, flyOn: 'Emirates nonstop', cpp: 11.2, status: 'green', statusText: 'Yes (88K)', type: 'award', durationMin: 950 },
-      { program: 'BA Avios', airline: 'Qatar', miles: '75K', taxes: 250, flyOn: 'Qatar via DOH', cpp: 9.8, status: 'yellow', statusText: 'Need 4K more (transfer UR)', type: 'award', durationMin: 1085 },
-      { program: 'United', airline: 'United', miles: '90K', taxes: 12, flyOn: 'United via EWR', cpp: 7.3, status: 'yellow', statusText: 'Need 20K more (transfer UR)', type: 'award', durationMin: 1390 },
-      { program: 'Aeroplan', airline: 'Air Canada', miles: '110K', taxes: 100, flyOn: 'AC via YYZ', cpp: 5.2, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280 },
+      { program: 'Alaska', airline: 'Emirates', miles: '85K', taxes: 30, flyOn: 'Emirates nonstop', cpp: 11.2, status: 'green', statusText: 'Yes (88K)', type: 'award', durationMin: 950,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: null, flights: 'EK 216', depart: 'Apr 28 4:30p', arrive: 'Apr 29 3:20p+1', duration: '15h 50m', cost: '42.5K miles + $15' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: null, flights: 'EK 215', depart: 'May 4 8:30a', arrive: 'May 4 1:05p', duration: '16h 35m', cost: '42.5K miles + $15' }
+        ]},
+      { program: 'BA Avios', airline: 'Qatar', miles: '75K', taxes: 250, flyOn: 'Qatar via DOH', cpp: 9.8, status: 'yellow', statusText: 'Need 4K more (transfer UR)', type: 'award', durationMin: 1085,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'DOH', flights: 'QR 740 → QR 1028', depart: 'Apr 28 2:45a', arrive: 'Apr 28 9:50p', duration: '18h 5m', cost: '37.5K Avios + $125' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'DOH', flights: 'QR 1029 → QR 739', depart: 'May 4 2:50p', arrive: 'May 5 12:10a', duration: '17h 20m', cost: '37.5K Avios + $125' }
+        ]},
+      { program: 'United', airline: 'United', miles: '90K', taxes: 12, flyOn: 'United via EWR', cpp: 7.3, status: 'yellow', statusText: 'Need 20K more (transfer UR)', type: 'award', durationMin: 1390,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'EWR', flights: 'UA 2631 → UA 48', depart: 'Apr 28 11:30p', arrive: 'Apr 30 1:40a+2', duration: '23h 10m', cost: '45K miles + $6' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'EWR', flights: 'UA 49 → UA 1183', depart: 'May 4 2:30a', arrive: 'May 4 12:45p', duration: '21h 15m', cost: '45K miles + $6' }
+        ]},
+      { program: 'Aeroplan', airline: 'Air Canada', miles: '110K', taxes: 100, flyOn: 'AC via YYZ', cpp: 5.2, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'YYZ', flights: 'AC 792 → AC 56', depart: 'Apr 28 10:15p', arrive: 'Apr 29 10:35p+1', duration: '21h 20m', cost: '55K Aeroplan + $50' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'YYZ', flights: 'AC 57 → AC 791', depart: 'May 4 8:10a', arrive: 'May 4 4:30p', duration: '19h 20m', cost: '55K Aeroplan + $50' }
+        ]},
     ]
   },
   business: {
     cash: [
-      { airline: 'AC + Emirates', price: 3338, route: 'via YUL+LHR', stops: 2, duration: '25h 10m', durationMin: 1510, product: 'Mixed', type: 'cash' },
-      { airline: 'Air Canada', price: 4196, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, product: 'AC J', type: 'cash' },
-      { airline: 'Qatar', price: 5233, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, product: 'Qsuites', type: 'cash' },
-      { airline: 'Emirates', price: 6162, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, product: 'EK J', type: 'cash' },
+      { airline: 'AC + Emirates', price: 3338, route: 'via YUL+LHR', stops: 2, duration: '25h 10m', durationMin: 1510, product: 'Mixed', type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'YUL → LHR', flights: 'AC 424 → AC 870 → EK 30', depart: 'Apr 28 7:00a', arrive: 'Apr 29 9:10p+1', duration: '25h 10m', price: '$1,669', product: 'AC J + EK J' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'YYZ', flights: 'AC 57 → AC 791', depart: 'May 4 8:10a', arrive: 'May 4 4:30p', duration: '19h 20m', price: '$1,669', product: 'AC J' }
+        ]},
+      { airline: 'Air Canada', price: 4196, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, product: 'AC J', type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'YYZ', flights: 'AC 792 → AC 56', depart: 'Apr 28 10:15p', arrive: 'Apr 29 10:35p+1', duration: '21h 20m', price: '$2,098', product: 'Signature Suite' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'YYZ', flights: 'AC 57 → AC 791', depart: 'May 4 8:10a', arrive: 'May 4 4:30p', duration: '19h 20m', price: '$2,098', product: 'Signature Suite' }
+        ]},
+      { airline: 'Qatar', price: 5233, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, product: 'Qsuites', type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'DOH', flights: 'QR 740 → QR 1028', depart: 'Apr 28 2:45a', arrive: 'Apr 28 9:50p', duration: '18h 5m', price: '$2,617', product: 'Qsuites' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'DOH', flights: 'QR 1029 → QR 739', depart: 'May 4 2:50p', arrive: 'May 5 12:10a', duration: '17h 20m', price: '$2,616', product: 'Qsuites' }
+        ]},
+      { airline: 'Emirates', price: 6162, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, product: 'EK J', type: 'cash',
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: null, flights: 'EK 216', depart: 'Apr 28 4:30p', arrive: 'Apr 29 3:20p+1', duration: '15h 50m', price: '$3,081', product: 'Emirates Business' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: null, flights: 'EK 215', depart: 'May 4 8:30a', arrive: 'May 4 1:05p', duration: '16h 35m', price: '$3,081', product: 'Emirates Business' }
+        ]},
     ],
     award: [
-      { program: 'Alaska', airline: 'Emirates', miles: '170K (85K OW)', taxes: 30, flyOn: 'Emirates nonstop', cpp: 3.6, status: 'yellow', statusText: 'Only 1 OW (88K)', type: 'award', durationMin: 950 },
-      { program: 'BA Avios', airline: 'Qatar', miles: '150K', taxes: 700, flyOn: 'Qatar Qsuites', cpp: 3.0, status: 'yellow', statusText: '71K + 79K UR transfer', type: 'award', durationMin: 1085 },
-      { program: 'United', airline: 'United', miles: '160K', taxes: 12, flyOn: 'United Polaris via EWR', cpp: 2.6, status: 'yellow', statusText: '70K + 90K UR transfer', type: 'award', durationMin: 1390 },
-      { program: 'Aeroplan', airline: 'Air Canada', miles: '170-240K', taxes: 200, flyOn: 'Star Alliance', cpp: 1.9, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280 },
-      { program: 'Flying Blue', airline: 'Air France', miles: '180K', taxes: 800, flyOn: 'AF via CDG', cpp: 1.9, status: 'green', statusText: 'Yes (851K)', type: 'award', durationMin: 1400 },
+      { program: 'Alaska', airline: 'Emirates', miles: '170K (85K OW)', taxes: 30, flyOn: 'Emirates nonstop', cpp: 3.6, status: 'yellow', statusText: 'Only 1 OW (88K)', type: 'award', durationMin: 950,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: null, flights: 'EK 216', depart: 'Apr 28 4:30p', arrive: 'Apr 29 3:20p+1', duration: '15h 50m', cost: '85K Alaska + $15', product: 'Emirates Business' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: null, flights: 'EK 215', depart: 'May 4 8:30a', arrive: 'May 4 1:05p', duration: '16h 35m', cost: '85K Alaska + $15', product: 'Emirates Business' }
+        ]},
+      { program: 'BA Avios', airline: 'Qatar', miles: '150K', taxes: 700, flyOn: 'Qatar Qsuites', cpp: 3.0, status: 'yellow', statusText: '71K + 79K UR transfer', type: 'award', durationMin: 1085,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'DOH', flights: 'QR 740 → QR 1028', depart: 'Apr 28 2:45a', arrive: 'Apr 28 9:50p', duration: '18h 5m', cost: '75K Avios + $350', product: 'Qsuites' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'DOH', flights: 'QR 1029 → QR 739', depart: 'May 4 2:50p', arrive: 'May 5 12:10a', duration: '17h 20m', cost: '75K Avios + $350', product: 'Qsuites' }
+        ]},
+      { program: 'United', airline: 'United', miles: '160K', taxes: 12, flyOn: 'United Polaris via EWR', cpp: 2.6, status: 'yellow', statusText: '70K + 90K UR transfer', type: 'award', durationMin: 1390,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'EWR', flights: 'UA 2631 → UA 48', depart: 'Apr 28 11:30p', arrive: 'Apr 30 1:40a+2', duration: '23h 10m', cost: '80K United + $6', product: 'Polaris Business' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'EWR', flights: 'UA 49 → UA 1183', depart: 'May 4 2:30a', arrive: 'May 4 12:45p', duration: '21h 15m', cost: '80K United + $6', product: 'Polaris Business' }
+        ]},
+      { program: 'Aeroplan', airline: 'Air Canada', miles: '170-240K', taxes: 200, flyOn: 'Star Alliance', cpp: 1.9, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'YYZ', flights: 'AC 792 → AC 56', depart: 'Apr 28 10:15p', arrive: 'Apr 29 10:35p+1', duration: '21h 20m', cost: '85-120K Aeroplan + $100', product: 'Signature Suite' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'YYZ', flights: 'AC 57 → AC 791', depart: 'May 4 8:10a', arrive: 'May 4 4:30p', duration: '19h 20m', cost: '85-120K Aeroplan + $100', product: 'Signature Suite' }
+        ]},
+      { program: 'Flying Blue', airline: 'Air France', miles: '180K', taxes: 800, flyOn: 'AF via CDG', cpp: 1.9, status: 'green', statusText: 'Yes (851K)', type: 'award', durationMin: 1400,
+        legs: [
+          { dir: 'OUT', from: 'LAX', to: 'DXB', via: 'CDG', flights: 'AF 69 → AF 662', depart: 'Apr 28 4:00p', arrive: 'Apr 29 7:10p+1', duration: '18h 10m', cost: '90K Flying Blue + $400', product: 'AF Business' },
+          { dir: 'RET', from: 'DXB', to: 'LAX', via: 'CDG', flights: 'AF 663 → AF 68', depart: 'May 4 9:30a', arrive: 'May 4 4:15p', duration: '17h 45m', cost: '90K Flying Blue + $400', product: 'AF Business' }
+        ]},
     ]
   }
 };
@@ -375,11 +447,64 @@ function sortFlights(arr) {
   });
 }
 
+let expandedCards = {};
+
+function toggleLeg(id) {
+  expandedCards[id] = !expandedCards[id];
+  const el = document.getElementById('legs-' + id);
+  const chevron = document.getElementById('chev-' + id);
+  if (expandedCards[id]) {
+    el.style.maxHeight = el.scrollHeight + 'px';
+    el.style.opacity = '1';
+    chevron.style.transform = 'rotate(180deg)';
+  } else {
+    el.style.maxHeight = '0px';
+    el.style.opacity = '0';
+    chevron.style.transform = 'rotate(0deg)';
+  }
+}
+
+function renderLeg(leg, isBusiness) {
+  const dirColor = leg.dir === 'OUT' ? 'text-accent' : 'text-emerald';
+  const dirLabel = leg.dir === 'OUT' ? '→ Outbound' : '← Return';
+  const via = leg.via ? `<span class="text-gray-500">via ${leg.via}</span>` : '<span class="text-emerald">Nonstop</span>';
+  const cost = leg.price || leg.cost;
+  const product = leg.product ? `<span class="bg-purple-500/20 text-purple-300 text-[10px] px-1.5 py-0.5 rounded-full">${leg.product}</span>` : '';
+  
+  return `
+    <div class="bg-surface/80 rounded-lg p-3 border border-gray-700/30">
+      <div class="flex items-center justify-between mb-2">
+        <span class="${dirColor} text-xs font-bold uppercase tracking-wider">${dirLabel}</span>
+        <span class="text-white font-semibold text-sm">${cost}</span>
+      </div>
+      <div class="grid grid-cols-3 gap-2 text-xs">
+        <div>
+          <p class="text-gray-500">Route</p>
+          <p class="text-gray-200 font-medium">${leg.from} → ${leg.to}</p>
+          <p class="text-[10px]">${via}</p>
+        </div>
+        <div>
+          <p class="text-gray-500">Flights</p>
+          <p class="text-gray-200 font-medium">${leg.flights}</p>
+          ${product}
+        </div>
+        <div>
+          <p class="text-gray-500">Schedule</p>
+          <p class="text-gray-200 font-medium">${leg.depart}</p>
+          <p class="text-gray-400 text-[10px]">⏱ ${leg.duration}</p>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function renderCashCard(f, cls) {
   const logo = airlineLogos[f.airline] || '';
   const url = bookingUrls[f.airline] || '#';
   const stopsLabel = f.stops === 0 ? '<span class="text-emerald font-medium">Nonstop</span>' : `${f.stops} stop`;
   const product = f.product ? `<span class="bg-purple-500/20 text-purple-300 text-xs px-2 py-0.5 rounded-full">${f.product}</span>` : '';
+  const cardId = 'cash-' + f.airline.replace(/\s+/g, '-').toLowerCase();
+  const legsHtml = f.legs ? f.legs.map(l => renderLeg(l, cls === 'business')).join('') : '';
   
   return `
     <div class="bg-card rounded-xl p-5 border border-gray-700/50 card-enter hover:border-gray-600 fade-in">
@@ -396,13 +521,21 @@ function renderCashCard(f, cls) {
           <span class="bg-blue-500/20 text-blue-300 text-xs px-2 py-0.5 rounded-full">Cash RT</span>
         </div>
       </div>
-      <div class="flex items-center justify-between text-sm">
+      <div class="flex items-center justify-between text-sm mb-2">
         <div class="flex items-center gap-4 text-gray-400">
           <span>⏱ ${f.duration}</span>
           ${product}
         </div>
         <a href="${url}" target="_blank" class="text-accent hover:text-white text-sm font-medium transition-colors">Book →</a>
       </div>
+      ${f.legs ? `
+      <button onclick="toggleLeg('${cardId}')" class="w-full flex items-center justify-center gap-1.5 text-xs text-gray-500 hover:text-gray-300 pt-2 border-t border-gray-700/50 transition-colors">
+        <span>Leg breakdown</span>
+        <svg id="chev-${cardId}" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div id="legs-${cardId}" class="slide-down max-h-0 opacity-0 mt-2 space-y-2">
+        ${legsHtml}
+      </div>` : ''}
     </div>
   `;
 }
@@ -411,6 +544,8 @@ function renderAwardCard(f) {
   const logo = airlineLogos[f.program] || airlineLogos[f.airline] || '';
   const url = bookingUrls[f.program] || '#';
   const cppClass = getCppClass(f.cpp);
+  const cardId = 'award-' + f.program.replace(/\s+/g, '-').toLowerCase();
+  const legsHtml = f.legs ? f.legs.map(l => renderLeg(l, true)).join('') : '';
   
   return `
     <div class="bg-card rounded-xl p-5 border border-gray-700/50 card-enter hover:border-gray-600 fade-in">
@@ -431,10 +566,18 @@ function renderAwardCard(f) {
         ${getStatusBadge(f.status, f.statusText)}
         <span class="${cppClass} text-sm font-bold">${f.cpp}¢/mi</span>
       </div>
-      <div class="flex items-center justify-between text-sm">
+      <div class="flex items-center justify-between text-sm mb-2">
         <span class="text-gray-400">+ $${f.taxes} taxes</span>
         <a href="${url}" target="_blank" class="text-accent hover:text-white text-sm font-medium transition-colors">Book →</a>
       </div>
+      ${f.legs ? `
+      <button onclick="toggleLeg('${cardId}')" class="w-full flex items-center justify-center gap-1.5 text-xs text-gray-500 hover:text-gray-300 pt-2 border-t border-gray-700/50 transition-colors">
+        <span>Leg breakdown</span>
+        <svg id="chev-${cardId}" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div id="legs-${cardId}" class="slide-down max-h-0 opacity-0 mt-2 space-y-2">
+        ${legsHtml}
+      </div>` : ''}
     </div>
   `;
 }

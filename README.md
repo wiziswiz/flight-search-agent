@@ -372,3 +372,16 @@ Each strategy script should:
 ## License
 
 MIT
+
+## Security & Credentials
+
+This tool reads API keys (e.g., `SERP_API_KEY`) from environment variables to query flight data from SerpAPI and airline websites. **No credentials are stored, logged, or transmitted to any third party** — they are only used for direct API calls to the services you configure.
+
+Network calls go to:
+- `serpapi.com` — Google Flights data (requires free API key)
+- Airline websites (united.com, alaskaair.com, etc.) — public search pages, no login required
+- `business.awardwallet.com` — your loyalty balances (requires your AwardWallet API key)
+
+## License
+
+MIT — see [LICENSE](LICENSE)
