@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAX → DXB Flight Dashboard | Token 2049</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        surface: '#0f172a',
+        card: '#1e293b',
+        cardHover: '#334155',
+        accent: '#38bdf8',
+        accentDim: '#0ea5e9',
+        gold: '#fbbf24',
+        emerald: '#34d399',
+        warn: '#f87171',
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  body { font-family: 'Inter', sans-serif; }
+  .fade-in { animation: fadeIn 0.4s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes pulse-glow { 0%,100% { box-shadow: 0 0 15px rgba(56,189,248,0.15); } 50% { box-shadow: 0 0 30px rgba(56,189,248,0.3); } }
+  .glow { animation: pulse-glow 3s ease-in-out infinite; }
+  .card-enter { transition: all 0.3s cubic-bezier(0.4,0,0.2,1); }
+  .card-enter:hover { transform: translateY(-4px); }
+  .slide-down { transition: max-height 0.4s ease, opacity 0.3s ease; overflow: hidden; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #0f172a; }
+  ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+  .logo-img { width: 32px; height: 32px; border-radius: 6px; background: white; object-fit: contain; }
+  .tab-active { border-bottom: 3px solid #38bdf8; color: #38bdf8; }
+  .tab-inactive { border-bottom: 3px solid transparent; color: #94a3b8; }
+  .tab-inactive:hover { color: #e2e8f0; }
+  .cpp-excellent { color: #34d399; }
+  .cpp-good { color: #fbbf24; }
+  .cpp-fair { color: #fb923c; }
+  .cpp-low { color: #94a3b8; }
+  .badge-green { background: rgba(52,211,153,0.15); color: #34d399; border: 1px solid rgba(52,211,153,0.3); }
+  .badge-yellow { background: rgba(251,191,36,0.15); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+  .badge-red { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+  .rec-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+  .rec-1 { border-left: 4px solid #34d399; }
+  .rec-2 { border-left: 4px solid #38bdf8; }
+  .rec-3 { border-left: 4px solid #fbbf24; }
+  .warning-banner { background: linear-gradient(90deg, rgba(248,113,113,0.1) 0%, rgba(251,191,36,0.1) 100%); }
+</style>
+</head>
+<body class="bg-surface text-gray-100 min-h-screen">
+
+<!-- Warning Banner -->
+<div class="warning-banner border-b border-red-900/50 px-4 py-3">
+  <div class="max-w-7xl mx-auto flex items-start gap-3">
+    <svg class="w-5 h-5 text-warn mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+    <div class="text-sm space-y-1">
+      <p class="text-warn font-semibold">⚠️ Chase UR → Emirates Skywards transfers ENDED Oct 2025</p>
+      <p class="text-yellow-400">⚠️ Virgin Atlantic does NOT book Emirates flights</p>
+      <p class="text-yellow-400">⚠️ Alaska only has 88K — enough for 1 business OW or 1 economy RT</p>
+    </div>
+    <button onclick="this.parentElement.parentElement.remove()" class="ml-auto text-gray-500 hover:text-gray-300 flex-shrink-0">✕</button>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="border-b border-gray-800 bg-surface/80 backdrop-blur-sm sticky top-0 z-40">
+  <div class="max-w-7xl mx-auto px-4 py-4">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+      <div>
+        <div class="flex items-center gap-3">
+          <span class="text-3xl">✈️</span>
+          <div>
+            <h1 class="text-2xl font-bold">
+              <span class="text-white">LAX</span>
+              <span class="text-accent mx-2">→</span>
+              <span class="text-white">DXB</span>
+            </h1>
+            <p class="text-sm text-gray-400">Apr 27–29 → May 4, 2026 · <span class="text-accent font-medium">Token 2049</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <button onclick="toggleBalances()" class="flex items-center gap-2 bg-card hover:bg-cardHover px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+          <span>💰</span> Points Balances
+          <svg id="balanceChevron" class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Points Balances Panel -->
+<div id="balancesPanel" class="slide-down max-h-0 opacity-0 border-b border-gray-800 bg-card/50">
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Points & Miles Balances</h3>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><span class="text-xs">🏦</span><span class="text-xs text-gray-400">Chase UR</span></div>
+        <p class="text-lg font-bold text-accent">1,315,295</p>
+        <p class="text-[10px] text-gray-500">387K+361K+348K+218K</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/airfrance.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Flying Blue</span></div>
+        <p class="text-lg font-bold text-emerald">851,165</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><span class="text-xs">🏨</span><span class="text-xs text-gray-400">Marriott</span></div>
+        <p class="text-lg font-bold text-purple-400">1,392,260</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><span class="text-xs">🏨</span><span class="text-xs text-gray-400">Hilton</span></div>
+        <p class="text-lg font-bold text-purple-400">734,242</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/aeroplan.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Aeroplan</span></div>
+        <p class="text-lg font-bold text-emerald">475,663</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/delta.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Delta</span></div>
+        <p class="text-lg font-bold">293,430</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/southwest.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Southwest</span></div>
+        <p class="text-lg font-bold">144,250</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/alaskaair.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Alaska</span></div>
+        <p class="text-lg font-bold text-gold">87,685</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/britishairways.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">BA Avios</span></div>
+        <p class="text-lg font-bold text-gold">71,449</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/united.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">United</span></div>
+        <p class="text-lg font-bold text-gold">70,000</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><img src="https://logo.clearbit.com/virginatlantic.com" class="w-4 h-4 rounded" onerror="this.style.display='none'"><span class="text-xs text-gray-400">Virgin Atlantic</span></div>
+        <p class="text-lg font-bold">60,728</p>
+      </div>
+      <div class="bg-surface rounded-lg p-3 border border-gray-700/50">
+        <div class="flex items-center gap-2 mb-1"><span class="text-xs">🏠</span><span class="text-xs text-gray-400">Bilt</span></div>
+        <p class="text-lg font-bold">59,390</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<main class="max-w-7xl mx-auto px-4 py-6">
+
+  <!-- TOP RECOMMENDATIONS -->
+  <section class="mb-10 fade-in">
+    <h2 class="text-xl font-bold mb-4 flex items-center gap-2">🏆 <span>Top Recommendations</span></h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <!-- Rec #1 -->
+      <div class="rec-card rec-1 rounded-xl p-5 card-enter glow border border-emerald/20">
+        <div class="flex items-center justify-between mb-3">
+          <span class="bg-emerald/20 text-emerald text-xs font-bold px-2 py-1 rounded-full">#1 BEST VALUE</span>
+          <span class="text-emerald font-bold text-lg">11.2¢/mi</span>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Alaska → Emirates J + Cash Return</h3>
+        <div class="space-y-2 text-sm text-gray-300 mb-4">
+          <p>✈️ <strong class="text-white">Out:</strong> 85K Alaska → Emirates nonstop business</p>
+          <p>✈️ <strong class="text-white">Return:</strong> ~$334 cash economy on United</p>
+          <div class="bg-surface/50 rounded-lg p-3 mt-3">
+            <p class="text-emerald font-semibold">Total: 85K miles + ~$349 cash</p>
+          </div>
+          <p class="text-gray-400 text-xs mt-2">Best cpp, nonstop Emirates J, uses Alaska balance perfectly</p>
+        </div>
+        <a href="https://www.alaskaair.com/booking/flights" target="_blank" class="block w-full text-center bg-emerald/20 hover:bg-emerald/30 text-emerald font-semibold py-2.5 rounded-lg transition-colors">Book on Alaska →</a>
+      </div>
+
+      <!-- Rec #2 -->
+      <div class="rec-card rec-2 rounded-xl p-5 card-enter border border-accent/20">
+        <div class="flex items-center justify-between mb-3">
+          <span class="bg-accent/20 text-accent text-xs font-bold px-2 py-1 rounded-full">#2 BEST PRODUCT</span>
+          <span class="text-accent font-bold text-lg">3.0¢/mi</span>
+        </div>
+        <h3 class="font-bold text-lg mb-2">BA Avios → Qatar Qsuites RT</h3>
+        <div class="space-y-2 text-sm text-gray-300 mb-4">
+          <p>🔄 Transfer 79K Chase UR → BA Avios</p>
+          <p>🎫 Book 150K Avios roundtrip Qsuites</p>
+          <div class="bg-surface/50 rounded-lg p-3 mt-3">
+            <p class="text-accent font-semibold">Total: 79K UR + 71K Avios + ~$700</p>
+          </div>
+          <p class="text-gray-400 text-xs mt-2">Qsuites is the best business class product flying</p>
+        </div>
+        <a href="https://www.britishairways.com/travel/redeem/execclub/" target="_blank" class="block w-full text-center bg-accent/20 hover:bg-accent/30 text-accent font-semibold py-2.5 rounded-lg transition-colors">Book on BA →</a>
+      </div>
+
+      <!-- Rec #3 -->
+      <div class="rec-card rec-3 rounded-xl p-5 card-enter border border-gold/20">
+        <div class="flex items-center justify-between mb-3">
+          <span class="bg-gold/20 text-gold text-xs font-bold px-2 py-1 rounded-full">#3 SAVE POINTS</span>
+          <span class="text-gold font-bold text-lg">$667</span>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Cash Economy at $667</h3>
+        <div class="space-y-2 text-sm text-gray-300 mb-4">
+          <p>✈️ United or Air Canada roundtrip</p>
+          <p>💡 Save points for higher-value redemptions</p>
+          <div class="bg-surface/50 rounded-lg p-3 mt-3">
+            <p class="text-gold font-semibold">Total: $667 cash</p>
+          </div>
+          <p class="text-gray-400 text-xs mt-2">Best when points are worth more elsewhere</p>
+        </div>
+        <a href="https://www.google.com/travel/flights?q=flights+from+LAX+to+DXB+april+27+return+may+4" target="_blank" class="block w-full text-center bg-gold/20 hover:bg-gold/30 text-gold font-semibold py-2.5 rounded-lg transition-colors">Book on Google Flights →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Controls -->
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 bg-card rounded-xl p-4 border border-gray-700/50">
+    <!-- Class Toggle -->
+    <div class="flex gap-1 bg-surface rounded-lg p-1">
+      <button onclick="setClass('economy')" id="tab-economy" class="px-5 py-2 rounded-md text-sm font-semibold transition-all bg-accent text-surface">Economy</button>
+      <button onclick="setClass('business')" id="tab-business" class="px-5 py-2 rounded-md text-sm font-semibold transition-all text-gray-400 hover:text-white">Business</button>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-3">
+      <!-- Filter -->
+      <div class="flex gap-1 bg-surface rounded-lg p-1">
+        <button onclick="setFilter('all')" id="filter-all" class="px-3 py-1.5 rounded-md text-xs font-medium transition-all bg-gray-700 text-white">All</button>
+        <button onclick="setFilter('cash')" id="filter-cash" class="px-3 py-1.5 rounded-md text-xs font-medium transition-all text-gray-400 hover:text-white">Cash</button>
+        <button onclick="setFilter('award')" id="filter-award" class="px-3 py-1.5 rounded-md text-xs font-medium transition-all text-gray-400 hover:text-white">Award</button>
+      </div>
+
+      <!-- Sort -->
+      <select onchange="setSort(this.value)" class="bg-surface border border-gray-700 text-sm rounded-lg px-3 py-1.5 text-gray-300 focus:outline-none focus:border-accent">
+        <option value="price">Sort: Price ↑</option>
+        <option value="cpp">Sort: cpp ↓</option>
+        <option value="duration">Sort: Duration ↑</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Flight Cards Container -->
+  <div id="flightsContainer" class="grid md:grid-cols-2 gap-4 mb-10">
+    <!-- Cards injected by JS -->
+  </div>
+
+</main>
+
+<!-- Footer -->
+<footer class="border-t border-gray-800 py-6 text-center text-xs text-gray-500">
+  <p>Flight data as of Feb 2026. Prices and availability subject to change. Built for Token 2049 trip planning.</p>
+</footer>
+
+<script>
+const airlineLogos = {
+  'United': 'https://logo.clearbit.com/united.com',
+  'Air Canada': 'https://logo.clearbit.com/aircanada.com',
+  'Turkish': 'https://logo.clearbit.com/turkishairlines.com',
+  'Qatar': 'https://logo.clearbit.com/qatarairways.com',
+  'Emirates': 'https://logo.clearbit.com/emirates.com',
+  'AC + Emirates': 'https://logo.clearbit.com/aircanada.com',
+  'Alaska': 'https://logo.clearbit.com/alaskaair.com',
+  'BA Avios': 'https://logo.clearbit.com/britishairways.com',
+  'Aeroplan': 'https://logo.clearbit.com/aeroplan.com',
+  'Flying Blue': 'https://logo.clearbit.com/airfrance.com',
+};
+
+const bookingUrls = {
+  'Alaska': 'https://www.alaskaair.com/booking/flights',
+  'BA Avios': 'https://www.britishairways.com/travel/redeem/execclub/',
+  'United': 'https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd',
+  'Aeroplan': 'https://www.aeroplan.com/en/use-your-points/travel.html',
+  'Flying Blue': 'https://wwws.airfrance.us/search/open-dates',
+  'Emirates': 'https://www.emirates.com/us/english/',
+  'Qatar': 'https://www.qatarairways.com/en-us/homepage.html',
+  'Air Canada': 'https://www.google.com/travel/flights?q=flights+from+LAX+to+DXB+april+27+return+may+4',
+  'Turkish': 'https://www.google.com/travel/flights?q=flights+from+LAX+to+DXB+april+27+return+may+4',
+  'AC + Emirates': 'https://www.google.com/travel/flights?q=flights+from+LAX+to+DXB+april+27+return+may+4',
+};
+
+const flights = {
+  economy: {
+    cash: [
+      { airline: 'United', price: 667, route: 'via EWR', stops: 1, duration: '23h 10m', durationMin: 1390, type: 'cash' },
+      { airline: 'Air Canada', price: 670, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, type: 'cash' },
+      { airline: 'Turkish', price: 738, route: 'via IST', stops: 1, duration: '19h 20m', durationMin: 1160, type: 'cash' },
+      { airline: 'Qatar', price: 820, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, type: 'cash' },
+      { airline: 'Emirates', price: 983, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, type: 'cash' },
+    ],
+    award: [
+      { program: 'Alaska', airline: 'Emirates', miles: '85K', taxes: 30, flyOn: 'Emirates nonstop', cpp: 11.2, status: 'green', statusText: 'Yes (88K)', type: 'award', durationMin: 950 },
+      { program: 'BA Avios', airline: 'Qatar', miles: '75K', taxes: 250, flyOn: 'Qatar via DOH', cpp: 9.8, status: 'yellow', statusText: 'Need 4K more (transfer UR)', type: 'award', durationMin: 1085 },
+      { program: 'United', airline: 'United', miles: '90K', taxes: 12, flyOn: 'United via EWR', cpp: 7.3, status: 'yellow', statusText: 'Need 20K more (transfer UR)', type: 'award', durationMin: 1390 },
+      { program: 'Aeroplan', airline: 'Air Canada', miles: '110K', taxes: 100, flyOn: 'AC via YYZ', cpp: 5.2, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280 },
+    ]
+  },
+  business: {
+    cash: [
+      { airline: 'AC + Emirates', price: 3338, route: 'via YUL+LHR', stops: 2, duration: '25h 10m', durationMin: 1510, product: 'Mixed', type: 'cash' },
+      { airline: 'Air Canada', price: 4196, route: 'via YYZ', stops: 1, duration: '21h 20m', durationMin: 1280, product: 'AC J', type: 'cash' },
+      { airline: 'Qatar', price: 5233, route: 'via DOH', stops: 1, duration: '18h 5m', durationMin: 1085, product: 'Qsuites', type: 'cash' },
+      { airline: 'Emirates', price: 6162, route: 'Nonstop', stops: 0, duration: '15h 50m', durationMin: 950, product: 'EK J', type: 'cash' },
+    ],
+    award: [
+      { program: 'Alaska', airline: 'Emirates', miles: '170K (85K OW)', taxes: 30, flyOn: 'Emirates nonstop', cpp: 3.6, status: 'yellow', statusText: 'Only 1 OW (88K)', type: 'award', durationMin: 950 },
+      { program: 'BA Avios', airline: 'Qatar', miles: '150K', taxes: 700, flyOn: 'Qatar Qsuites', cpp: 3.0, status: 'yellow', statusText: '71K + 79K UR transfer', type: 'award', durationMin: 1085 },
+      { program: 'United', airline: 'United', miles: '160K', taxes: 12, flyOn: 'United Polaris via EWR', cpp: 2.6, status: 'yellow', statusText: '70K + 90K UR transfer', type: 'award', durationMin: 1390 },
+      { program: 'Aeroplan', airline: 'Air Canada', miles: '170-240K', taxes: 200, flyOn: 'Star Alliance', cpp: 1.9, status: 'green', statusText: 'Yes (475K)', type: 'award', durationMin: 1280 },
+      { program: 'Flying Blue', airline: 'Air France', miles: '180K', taxes: 800, flyOn: 'AF via CDG', cpp: 1.9, status: 'green', statusText: 'Yes (851K)', type: 'award', durationMin: 1400 },
+    ]
+  }
+};
+
+let currentClass = 'economy';
+let currentFilter = 'all';
+let currentSort = 'price';
+
+function setClass(cls) {
+  currentClass = cls;
+  document.getElementById('tab-economy').className = cls === 'economy' 
+    ? 'px-5 py-2 rounded-md text-sm font-semibold transition-all bg-accent text-surface' 
+    : 'px-5 py-2 rounded-md text-sm font-semibold transition-all text-gray-400 hover:text-white';
+  document.getElementById('tab-business').className = cls === 'business' 
+    ? 'px-5 py-2 rounded-md text-sm font-semibold transition-all bg-accent text-surface' 
+    : 'px-5 py-2 rounded-md text-sm font-semibold transition-all text-gray-400 hover:text-white';
+  render();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  ['all','cash','award'].forEach(v => {
+    document.getElementById('filter-'+v).className = v === f
+      ? 'px-3 py-1.5 rounded-md text-xs font-medium transition-all bg-gray-700 text-white'
+      : 'px-3 py-1.5 rounded-md text-xs font-medium transition-all text-gray-400 hover:text-white';
+  });
+  render();
+}
+
+function setSort(s) {
+  currentSort = s;
+  render();
+}
+
+function getCppClass(cpp) {
+  if (cpp >= 8) return 'cpp-excellent';
+  if (cpp >= 4) return 'cpp-good';
+  if (cpp >= 2) return 'cpp-fair';
+  return 'cpp-low';
+}
+
+function getStatusBadge(status, text) {
+  const cls = status === 'green' ? 'badge-green' : status === 'yellow' ? 'badge-yellow' : 'badge-red';
+  return `<span class="${cls} text-xs px-2 py-0.5 rounded-full font-medium">${text}</span>`;
+}
+
+function sortFlights(arr) {
+  return [...arr].sort((a, b) => {
+    if (currentSort === 'price') {
+      const pa = a.type === 'cash' ? a.price : a.taxes;
+      const pb = b.type === 'cash' ? b.price : b.taxes;
+      return pa - pb;
+    }
+    if (currentSort === 'cpp') {
+      const ca = a.cpp || 0;
+      const cb = b.cpp || 0;
+      return cb - ca;
+    }
+    if (currentSort === 'duration') {
+      return (a.durationMin || 9999) - (b.durationMin || 9999);
+    }
+    return 0;
+  });
+}
+
+function renderCashCard(f, cls) {
+  const logo = airlineLogos[f.airline] || '';
+  const url = bookingUrls[f.airline] || '#';
+  const stopsLabel = f.stops === 0 ? '<span class="text-emerald font-medium">Nonstop</span>' : `${f.stops} stop`;
+  const product = f.product ? `<span class="bg-purple-500/20 text-purple-300 text-xs px-2 py-0.5 rounded-full">${f.product}</span>` : '';
+  
+  return `
+    <div class="bg-card rounded-xl p-5 border border-gray-700/50 card-enter hover:border-gray-600 fade-in">
+      <div class="flex items-start justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <img src="${logo}" class="logo-img" onerror="this.style.display='none'" alt="${f.airline}">
+          <div>
+            <h3 class="font-bold text-white">${f.airline}</h3>
+            <p class="text-xs text-gray-400">${f.route} · ${stopsLabel}</p>
+          </div>
+        </div>
+        <div class="text-right">
+          <p class="text-2xl font-bold text-white">$${f.price.toLocaleString()}</p>
+          <span class="bg-blue-500/20 text-blue-300 text-xs px-2 py-0.5 rounded-full">Cash</span>
+        </div>
+      </div>
+      <div class="flex items-center justify-between text-sm">
+        <div class="flex items-center gap-4 text-gray-400">
+          <span>⏱ ${f.duration}</span>
+          ${product}
+        </div>
+        <a href="${url}" target="_blank" class="text-accent hover:text-white text-sm font-medium transition-colors">Book →</a>
+      </div>
+    </div>
+  `;
+}
+
+function renderAwardCard(f) {
+  const logo = airlineLogos[f.program] || airlineLogos[f.airline] || '';
+  const url = bookingUrls[f.program] || '#';
+  const cppClass = getCppClass(f.cpp);
+  
+  return `
+    <div class="bg-card rounded-xl p-5 border border-gray-700/50 card-enter hover:border-gray-600 fade-in">
+      <div class="flex items-start justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <img src="${logo}" class="logo-img" onerror="this.style.display='none'" alt="${f.program}">
+          <div>
+            <h3 class="font-bold text-white">${f.program}</h3>
+            <p class="text-xs text-gray-400">${f.flyOn}</p>
+          </div>
+        </div>
+        <div class="text-right">
+          <p class="text-2xl font-bold text-white">${f.miles}</p>
+          <span class="bg-purple-500/20 text-purple-300 text-xs px-2 py-0.5 rounded-full">Award</span>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        ${getStatusBadge(f.status, f.statusText)}
+        <span class="${cppClass} text-sm font-bold">${f.cpp}¢/mi</span>
+      </div>
+      <div class="flex items-center justify-between text-sm">
+        <span class="text-gray-400">+ $${f.taxes} taxes</span>
+        <a href="${url}" target="_blank" class="text-accent hover:text-white text-sm font-medium transition-colors">Book →</a>
+      </div>
+    </div>
+  `;
+}
+
+function render() {
+  const data = flights[currentClass];
+  let items = [];
+  
+  if (currentFilter === 'all' || currentFilter === 'cash') {
+    items = items.concat(data.cash);
+  }
+  if (currentFilter === 'all' || currentFilter === 'award') {
+    items = items.concat(data.award);
+  }
+  
+  items = sortFlights(items);
+  
+  const container = document.getElementById('flightsContainer');
+  container.innerHTML = items.map(f => 
+    f.type === 'cash' ? renderCashCard(f, currentClass) : renderAwardCard(f)
+  ).join('');
+}
+
+function toggleBalances() {
+  const panel = document.getElementById('balancesPanel');
+  const chevron = document.getElementById('balanceChevron');
+  if (panel.style.maxHeight && panel.style.maxHeight !== '0px') {
+    panel.style.maxHeight = '0px';
+    panel.style.opacity = '0';
+    chevron.style.transform = 'rotate(0deg)';
+  } else {
+    panel.style.maxHeight = '500px';
+    panel.style.opacity = '1';
+    chevron.style.transform = 'rotate(180deg)';
+  }
+}
+
+// Initial render
+render();
+</script>
+</body>
+</html>
