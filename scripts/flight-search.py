@@ -50,7 +50,7 @@ def parse_natural_language(text):
     
     # Extract special search types
     include_awards = 'points' in text or 'miles' in text or 'award' in text
-    include_hidden_city = 'hidden' in text or 'skiplagged' in text
+    include_hidden_city = 'hidden' in text or 'skiplagged' in text or 'hidden city' in text
     include_budget = 'budget' in text or 'cheap' in text
     include_alternative_airports = 'alternative' in text or 'alt' in text or 'nearby' in text
     
@@ -386,7 +386,7 @@ def main():
         strategies = ['google-flights']  # Always include Google Flights
         
         if include_hidden_city:
-            strategies.append('skiplagged')
+            strategies.append('hidden-city')
         if include_budget:
             strategies.append('budget')
         if include_awards:
@@ -396,7 +396,7 @@ def main():
         
         # If no specific strategies requested, run core set
         if len(strategies) == 1:  # Only google-flights
-            strategies.extend(['skiplagged', 'budget'])
+            strategies.extend(['hidden-city', 'budget'])
         
         # Run searches
         print(f"Searching flights from {origin} to {destination} on {depart_date}...", file=sys.stderr)

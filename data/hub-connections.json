@@ -1,0 +1,152 @@
+{
+  "DEN": {
+    "name": "Denver International",
+    "hub_airlines": ["United", "Southwest", "Frontier"],
+    "beyond_cities": ["SLC", "OAK", "SMF", "PDX", "SEA", "ABQ", "BOI", "COS", "BIL", "RNO", "GEG", "MSO"]
+  },
+  "ORD": {
+    "name": "Chicago O'Hare",
+    "hub_airlines": ["United", "American"],
+    "beyond_cities": ["MSP", "MKE", "DSM", "IND", "STL", "GRB", "FWA", "SBN", "CID", "MLI", "PEO", "CMI"]
+  },
+  "ATL": {
+    "name": "Atlanta Hartsfield-Jackson",
+    "hub_airlines": ["Delta"],
+    "beyond_cities": ["BHM", "JAX", "SAV", "CHS", "GSP", "TYS", "MGM", "MOB", "VLD", "ABY", "CSG", "AGS"]
+  },
+  "LAX": {
+    "name": "Los Angeles International",
+    "hub_airlines": ["American", "Delta", "United"],
+    "beyond_cities": ["SAN", "LAS", "PHX", "SFO", "OAK", "SJC", "SMF", "PDX", "SEA", "SLC", "BOI", "RNO"]
+  },
+  "JFK": {
+    "name": "New York JFK",
+    "hub_airlines": ["American", "Delta", "JetBlue"],
+    "beyond_cities": ["BOS", "PHL", "BWI", "DCA", "RDU", "CLT", "BUF", "PVD", "BGR", "PWM", "ALB", "SYR"]
+  },
+  "DFW": {
+    "name": "Dallas/Fort Worth International",
+    "hub_airlines": ["American"],
+    "beyond_cities": ["AUS", "SAT", "HOU", "IAH", "OKC", "TUL", "XNA", "LIT", "SHV", "MSY", "ABQ", "ELP"]
+  },
+  "MIA": {
+    "name": "Miami International",
+    "hub_airlines": ["American"],
+    "beyond_cities": ["FLL", "PBI", "TPA", "MCO", "JAX", "TLH", "GNV", "EYW", "RSW", "SRQ", "PNS", "PIE"]
+  },
+  "PHX": {
+    "name": "Phoenix Sky Harbor",
+    "hub_airlines": ["American", "Southwest"],
+    "beyond_cities": ["LAS", "SAN", "LAX", "TUS", "FLG", "YUM", "ABQ", "ELP", "COS", "SLC", "GJT", "CNM"]
+  },
+  "SEA": {
+    "name": "Seattle-Tacoma International",
+    "hub_airlines": ["Alaska", "Delta"],
+    "beyond_cities": ["PDX", "BOI", "MSO", "BIL", "GEG", "BZN", "FAI", "ANC", "SEA", "BLI", "PAE", "YKM"]
+  },
+  "SFO": {
+    "name": "San Francisco International",
+    "hub_airlines": ["United"],
+    "beyond_cities": ["OAK", "SJC", "SMF", "STS", "MRY", "SBP", "LAX", "SAN", "LAS", "RNO", "PDX", "SEA"]
+  },
+  "IAH": {
+    "name": "Houston Intercontinental",
+    "hub_airlines": ["United"],
+    "beyond_cities": ["HOU", "AUS", "SAT", "DFW", "MSY", "BTR", "LFT", "LCH", "BPT", "CRP", "HRL", "MCO"]
+  },
+  "BWI": {
+    "name": "Baltimore/Washington International",
+    "hub_airlines": ["Southwest"],
+    "beyond_cities": ["DCA", "IAD", "PHL", "RIC", "ORF", "CHO", "ROA", "LYH", "CHS", "CAE", "GSP", "AVL"]
+  },
+  "LAS": {
+    "name": "Las Vegas McCarran",
+    "hub_airlines": ["Southwest", "Spirit"],
+    "beyond_cities": ["LAX", "SAN", "PHX", "SFO", "OAK", "SJC", "RNO", "SLC", "BOI", "PDX", "SEA", "FAT"]
+  },
+  "MSP": {
+    "name": "Minneapolis-St. Paul",
+    "hub_airlines": ["Delta"],
+    "beyond_cities": ["DLH", "SUX", "DSM", "CID", "RST", "STC", "BJI", "GFK", "FAR", "BIS", "MOT", "DLH"]
+  },
+  "CLT": {
+    "name": "Charlotte Douglas",
+    "hub_airlines": ["American"],
+    "beyond_cities": ["RDU", "GSO", "AVL", "CHS", "CAE", "GSP", "TYS", "BNA", "BHM", "ATL", "SAV", "JAX"]
+  },
+  "BOS": {
+    "name": "Boston Logan",
+    "hub_airlines": ["JetBlue", "Delta"],
+    "beyond_cities": ["PWM", "BGR", "PVD", "BDL", "HVN", "ALB", "BUF", "SYR", "BGR", "MVY", "ACK", "HYA"]
+  },
+  "SLC": {
+    "name": "Salt Lake City International",
+    "hub_airlines": ["Delta"],
+    "beyond_cities": ["BOI", "BZN", "MSO", "GEG", "PDX", "SEA", "RNO", "LAS", "GJT", "CNM", "ASE", "JAC"]
+  },
+  "PHL": {
+    "name": "Philadelphia International",
+    "hub_airlines": ["American"],
+    "beyond_cities": ["BWI", "DCA", "IAD", "EWR", "LGA", "BDL", "PVD", "BOS", "ALB", "BGM", "AVP", "MDT"]
+  },
+  "MCO": {
+    "name": "Orlando International",
+    "hub_airlines": ["Southwest", "JetBlue"],
+    "beyond_cities": ["MIA", "FLL", "PBI", "TPA", "JAX", "TLH", "GNV", "DAB", "MLB", "SRQ", "RSW", "PIE"]
+  },
+  "LGA": {
+    "name": "New York LaGuardia",
+    "hub_airlines": ["American", "Delta"],
+    "beyond_cities": ["BOS", "PHL", "BWI", "DCA", "BUF", "SYR", "ALB", "PVD", "BDL", "HVN", "BGR", "PWM"]
+  },
+  "LHR": {
+    "name": "London Heathrow",
+    "hub_airlines": ["British Airways", "Virgin Atlantic"],
+    "beyond_cities": ["MAN", "BHX", "GLA", "EDI", "NCL", "LBA", "BRS", "CWL", "ABZ", "INV", "GGG", "JER"]
+  },
+  "CDG": {
+    "name": "Paris Charles de Gaulle",
+    "hub_airlines": ["Air France"],
+    "beyond_cities": ["ORY", "LYS", "MRS", "NCE", "TLS", "BOD", "NTE", "SXB", "LIL", "MPL", "BES", "CLY"]
+  },
+  "FRA": {
+    "name": "Frankfurt am Main",
+    "hub_airlines": ["Lufthansa"],
+    "beyond_cities": ["MUC", "DUS", "HAM", "BER", "STR", "CGN", "HAJ", "NUE", "SCN", "LEJ", "DRS", "BRE"]
+  },
+  "AMS": {
+    "name": "Amsterdam Schiphol",
+    "hub_airlines": ["KLM"],
+    "beyond_cities": ["RTM", "EIN", "GRQ", "MST", "ENS", "LEY", "DHR", "LWR", "UTC", "WOE", "BRU", "ANR"]
+  },
+  "IST": {
+    "name": "Istanbul Airport",
+    "hub_airlines": ["Turkish Airlines"],
+    "beyond_cities": ["SAW", "ESB", "ADB", "AYT", "DLM", "BJV", "GZT", "MLX", "VAN", "ERZ", "DIY", "MSR"]
+  },
+  "DXB": {
+    "name": "Dubai International",
+    "hub_airlines": ["Emirates"],
+    "beyond_cities": ["AUH", "SHJ", "DWC", "RKT", "AAN", "MCT", "DOH", "KWI", "BAH", "RUH", "JED", "DMM"]
+  },
+  "NRT": {
+    "name": "Tokyo Narita",
+    "hub_airlines": ["JAL", "ANA"],
+    "beyond_cities": ["HND", "KIX", "NGO", "FUK", "SPK", "SDJ", "CTS", "OKA", "KMI", "UBJ", "AOJ", "MMJ"]
+  },
+  "ICN": {
+    "name": "Seoul Incheon",
+    "hub_airlines": ["Korean Air", "Asiana"],
+    "beyond_cities": ["GMP", "PUS", "CJU", "TAE", "KPO", "RSU", "YNY", "KUV", "WJU", "JJU", "USN", "HIN"]
+  },
+  "SIN": {
+    "name": "Singapore Changi",
+    "hub_airlines": ["Singapore Airlines"],
+    "beyond_cities": ["XSP", "JHB", "SZB", "JOL", "BWN", "MKZ", "JHG", "LBU", "TGG", "SDK", "LGK", "AOR"]
+  },
+  "HKG": {
+    "name": "Hong Kong International",
+    "hub_airlines": ["Cathay Pacific"],
+    "beyond_cities": ["MFM", "ZUH", "SZX", "CAN", "SHA", "PVG", "NNG", "KMG", "CTU", "XIY", "TNA", "URC"]
+  }
+}
