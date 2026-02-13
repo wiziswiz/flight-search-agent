@@ -58,8 +58,10 @@ def parse_skiplagged_results(data, origin, destination, depart_date, return_date
         
     for flight_data in data.get('flights', []):
         try:
+            if not isinstance(flight_data, dict):
+                continue
             flight = {
-                "price": flight_data.get('price', {}).get('total', 0),
+                "price": flight_data.get('price', {}).get('total', 0) if isinstance(flight_data.get('price'), dict) else flight_data.get('price', 0),
                 "currency": "USD",
                 "airline": flight_data.get('airline', {}).get('name', 'Unknown'),
                 "flight_number": flight_data.get('flight_number', ''),
