@@ -66,12 +66,47 @@ Returns points required, taxes, value per point, and transfer partner recommenda
 
 ## How It Works
 
+The skill now includes **working Python scripts** that can be run standalone or via the master orchestrator:
+
+### Core Scripts
+
+1. **`scripts/flight-search.py`** - Master orchestrator that runs all strategies in parallel
+2. **`scripts/search-google-flights.py`** - Google Flights search with flexible date support  
+3. **`scripts/search-skiplagged.py`** - Hidden city route search via Skiplagged API
+4. **`scripts/search-awards.py`** - Award flight search using miles/points programs
+5. **`scripts/search-budget.py`** - Budget carrier search (Southwest, Spirit, Frontier, etc.)
+6. **`scripts/search-alt-airports.py`** - Alternative airport search with transport cost analysis
+
+### Data Files
+
+- **`data/airport-alternates.json`** - Airport alternatives database (30+ major airports)
+- **`data/award-sweet-spots.json`** - Known award sweet spots (25+ programs/routes)
+
+### Usage Examples
+
+```bash
+# Master orchestrator - natural language
+scripts/flight-search.py --natural "LAX to JFK March 15 flexible +/-3 days"
+
+# Master orchestrator - structured  
+scripts/flight-search.py LAX JFK 2026-03-15 --return 2026-03-22 --flex 3 --include-awards
+
+# Individual strategies
+scripts/search-google-flights.py LAX JFK 2026-03-15 --flex 3 --pretty
+scripts/search-skiplagged.py LAX JFK 2026-03-15 --pretty  
+scripts/search-awards.py LAX NRT 2026-03-15 --program united --pretty
+scripts/search-budget.py LAX JFK 2026-03-15 --pretty
+scripts/search-alt-airports.py LAX JFK 2026-03-15 --matrix --pretty
+```
+
+### Execution Flow
+
 1. **Parse Input** - Extract origin, destination, dates, and flexibility window
-2. **Build Date Matrix** - If flexible dates specified, generate all date combinations
-3. **Execute Strategies** - Run strategies in parallel across date combinations
-4. **Price Comparison** - Build matrix showing price by departure/return date
-5. **Aggregate Results** - Deduplicate and score by price, stops, duration, reliability
-6. **Present Findings** - Show cheapest dates + top 10 results with booking links
+2. **Run Strategies** - Execute search scripts in parallel (ThreadPoolExecutor)
+3. **Collect Results** - Aggregate JSON results from all strategies
+4. **Deduplicate** - Remove duplicate flights found by multiple strategies
+5. **Rank & Score** - Sort by price, stops, duration, confidence, and strategy reliability
+6. **Present Results** - Show top 10 deals + comprehensive analysis
 
 ### Date Matrix Output (when using +/- days)
 
@@ -105,14 +140,60 @@ When using `using points`:
 - Saver vs standard availability
 - Recommendation (use points or pay cash)
 
+## Technical Implementation
+
+### Script Architecture
+
+All scripts are pure Python 3 with minimal dependencies (urllib, json, concurrent.futures). No API keys required for basic functionality.
+
+**Error Handling**: Each script gracefully degrades - if real APIs are down, they return realistic mock data for testing.
+
+**Output Format**: Standardized JSON with fields:
+```json
+{
+  "price": 299,
+  "currency": "USD", 
+  "airline": "United",
+  "flight_number": "UA1234",
+  "origin": "LAX",
+  "destination": "JFK", 
+  "departure_date": "2026-03-15",
+  "departure_time": "14:30",
+  "arrival_time": "22:45",
+  "duration": "5h 15m",
+  "stops": 0,
+  "strategy": "google-flights",
+  "booking_url": "https://...",
+  "confidence": "high"
+}
+```
+
+### Award Search Integration
+
+Uses **sweet spots database** (`data/award-sweet-spots.json`) with 25+ known excellent-value award redemptions:
+- ANA First Class via Virgin Atlantic (55K miles)
+- Cathay First via Alaska (70K miles)  
+- Turkish Business via United (45K miles)
+
+Calculates **cents per point (CPP)** and recommends whether to use points or pay cash.
+
+### Alternative Airports
+
+**Transport cost modeling**: Estimates taxi/Uber costs between major airports and their alternatives:
+- LAX ↔ SNA: $45, 60 min
+- JFK ↔ LGA: $50, 60 min  
+- SFO ↔ OAK: $45, 60 min
+
+Shows **net savings** after transport costs.
+
 ## Integrated Tools
 
-| Tool | Source | Purpose |
-|------|--------|---------|
-| [skiplagged-node-api](https://github.com/krishnaglick/skiplagged-node-api) | `integrations/` | Hidden city + cash prices |
-| [flightplan](https://github.com/flightplan-tool/flightplan) | `integrations/` | Award inventory (7 airlines) |
-| [awardwiz](https://github.com/lg/awardwiz) | `integrations/` | US airline award search |
-| [flights-mcp](https://github.com/ravinahp/flights-mcp) | `integrations/` | Duffel API (optional) |
+| Tool | Purpose | Implementation |
+|------|---------|----------------|
+| **Skiplagged API** | Hidden city routes | Direct API calls to `skiplagged.com/api/search.php` |
+| **Google Flights** | Baseline flight search | Web scraping (mock data in demo mode) |
+| **Award Sweet Spots DB** | Miles/points optimization | Local JSON database with 25+ sweet spots |
+| **Airport Alternates DB** | Alternative airport mapping | 30+ major airports with nearby alternatives |
 
 ### Skiplagged Hidden City
 

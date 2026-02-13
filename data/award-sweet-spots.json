@@ -1,0 +1,254 @@
+{
+  "sweet_spots": [
+    {
+      "program": "virgin-atlantic",
+      "airline": "ANA",
+      "class": "first",
+      "route": "US-Japan",
+      "miles": 55000,
+      "typical_cash": 15000,
+      "cpp": 27.3,
+      "notes": "Must book round trip"
+    },
+    {
+      "program": "alaska-mileage-plan",
+      "airline": "Cathay Pacific",
+      "class": "first",
+      "route": "US-Asia",
+      "miles": 70000,
+      "typical_cash": 18000,
+      "cpp": 25.7,
+      "notes": "Amazing First Class product"
+    },
+    {
+      "program": "united-mileageplus",
+      "airline": "Turkish Airlines",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 45000,
+      "typical_cash": 5000,
+      "cpp": 11.1,
+      "notes": "Star Alliance partner"
+    },
+    {
+      "program": "aeroplan",
+      "airline": "Air Canada",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 55000,
+      "typical_cash": 6000,
+      "cpp": 10.9,
+      "notes": "Good availability"
+    },
+    {
+      "program": "alaska-mileage-plan",
+      "airline": "Icelandair",
+      "class": "economy",
+      "route": "US-Europe",
+      "miles": 22000,
+      "typical_cash": 800,
+      "cpp": 3.6,
+      "notes": "Free stopover in Iceland"
+    },
+    {
+      "program": "american-aadvantage",
+      "airline": "Japan Airlines",
+      "class": "first",
+      "route": "US-Japan",
+      "miles": 80000,
+      "typical_cash": 16000,
+      "cpp": 20.0,
+      "notes": "JAL Suite Class"
+    },
+    {
+      "program": "chase-ultimate-rewards",
+      "airline": "Singapore Airlines",
+      "class": "suites",
+      "route": "US-Asia",
+      "miles": 115000,
+      "typical_cash": 30000,
+      "cpp": 26.1,
+      "notes": "Transfer to Singapore KrisFlyer"
+    },
+    {
+      "program": "amex-membership-rewards",
+      "airline": "Air France",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 62500,
+      "typical_cash": 5500,
+      "cpp": 8.8,
+      "notes": "Transfer to Flying Blue"
+    },
+    {
+      "program": "united-mileageplus",
+      "airline": "Lufthansa",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 70000,
+      "typical_cash": 6000,
+      "cpp": 8.6,
+      "notes": "Star Alliance flagship"
+    },
+    {
+      "program": "alaska-mileage-plan",
+      "airline": "Emirates",
+      "class": "first",
+      "route": "US-Middle East",
+      "miles": 90000,
+      "typical_cash": 15000,
+      "cpp": 16.7,
+      "notes": "A380 First Class suites"
+    },
+    {
+      "program": "american-aadvantage",
+      "airline": "Qatar Airways",
+      "class": "business",
+      "route": "US-Middle East",
+      "miles": 70000,
+      "typical_cash": 6500,
+      "cpp": 9.3,
+      "notes": "QSuite product"
+    },
+    {
+      "program": "virgin-atlantic",
+      "airline": "Virgin Atlantic",
+      "class": "upper",
+      "route": "US-UK",
+      "miles": 50000,
+      "typical_cash": 4500,
+      "cpp": 9.0,
+      "notes": "Virgin's own metal"
+    },
+    {
+      "program": "british-airways-avios",
+      "airline": "British Airways",
+      "class": "first",
+      "route": "US-UK",
+      "miles": 85000,
+      "typical_cash": 12000,
+      "cpp": 14.1,
+      "notes": "Club Suite First"
+    },
+    {
+      "program": "delta-skymiles",
+      "airline": "KLM",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 75000,
+      "typical_cash": 5800,
+      "cpp": 7.7,
+      "notes": "SkyTeam partner"
+    },
+    {
+      "program": "united-mileageplus",
+      "airline": "Singapore Airlines",
+      "class": "business",
+      "route": "US-Asia",
+      "miles": 85000,
+      "typical_cash": 8500,
+      "cpp": 10.0,
+      "notes": "Star Alliance transfer"
+    },
+    {
+      "program": "alaska-mileage-plan",
+      "airline": "Finnair",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 60000,
+      "typical_cash": 5200,
+      "cpp": 8.7,
+      "notes": "Oneworld partner"
+    },
+    {
+      "program": "chase-ultimate-rewards",
+      "airline": "United Airlines",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 70000,
+      "typical_cash": 6200,
+      "cpp": 8.9,
+      "notes": "Transfer to United"
+    },
+    {
+      "program": "american-aadvantage",
+      "airline": "Cathay Pacific",
+      "class": "business",
+      "route": "US-Asia",
+      "miles": 70000,
+      "typical_cash": 7500,
+      "cpp": 10.7,
+      "notes": "Oneworld partner"
+    },
+    {
+      "program": "amex-membership-rewards",
+      "airline": "Delta Airlines",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 75000,
+      "typical_cash": 6000,
+      "cpp": 8.0,
+      "notes": "Transfer to Delta"
+    },
+    {
+      "program": "united-mileageplus",
+      "airline": "ANA",
+      "class": "business",
+      "route": "US-Japan",
+      "miles": 75000,
+      "typical_cash": 8000,
+      "cpp": 10.7,
+      "notes": "Star Alliance premium"
+    },
+    {
+      "program": "alaska-mileage-plan",
+      "airline": "Japan Airlines",
+      "class": "business",
+      "route": "US-Japan",
+      "miles": 60000,
+      "typical_cash": 7000,
+      "cpp": 11.7,
+      "notes": "Oneworld partner"
+    },
+    {
+      "program": "virgin-atlantic",
+      "airline": "Delta Airlines",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 50000,
+      "typical_cash": 5000,
+      "cpp": 10.0,
+      "notes": "Joint venture partner"
+    },
+    {
+      "program": "british-airways-avios",
+      "airline": "American Airlines",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 57500,
+      "typical_cash": 5500,
+      "cpp": 9.6,
+      "notes": "Oneworld partner"
+    },
+    {
+      "program": "chase-ultimate-rewards",
+      "airline": "British Airways",
+      "class": "business",
+      "route": "US-Europe",
+      "miles": 50000,
+      "typical_cash": 4800,
+      "cpp": 9.6,
+      "notes": "Transfer to Avios"
+    },
+    {
+      "program": "amex-membership-rewards",
+      "airline": "Singapore Airlines",
+      "class": "business",
+      "route": "US-Asia",
+      "miles": 85000,
+      "typical_cash": 8500,
+      "cpp": 10.0,
+      "notes": "Transfer to KrisFlyer"
+    }
+  ]
+}

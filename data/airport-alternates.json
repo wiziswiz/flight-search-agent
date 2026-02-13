@@ -1,0 +1,184 @@
+{
+  "airports": [
+    {
+      "code": "LAX",
+      "name": "Los Angeles International",
+      "city": "Los Angeles",
+      "alternates": ["SNA", "BUR", "LGB", "ONT"]
+    },
+    {
+      "code": "JFK",
+      "name": "John F. Kennedy International", 
+      "city": "New York",
+      "alternates": ["LGA", "EWR", "SWF", "ISP"]
+    },
+    {
+      "code": "ORD",
+      "name": "O'Hare International",
+      "city": "Chicago",
+      "alternates": ["MDW", "MKE", "RFD"]
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "city": "San Francisco",
+      "alternates": ["SJC", "OAK", "STS"]
+    },
+    {
+      "code": "DFW",
+      "name": "Dallas/Fort Worth International",
+      "city": "Dallas",
+      "alternates": ["DAL", "AFW"]
+    },
+    {
+      "code": "DEN",
+      "name": "Denver International",
+      "city": "Denver",
+      "alternates": ["COS"]
+    },
+    {
+      "code": "LAS",
+      "name": "McCarran International",
+      "city": "Las Vegas",
+      "alternates": ["VGT"]
+    },
+    {
+      "code": "MIA",
+      "name": "Miami International",
+      "city": "Miami",
+      "alternates": ["FLL", "PBI"]
+    },
+    {
+      "code": "SEA",
+      "name": "Seattle-Tacoma International",
+      "city": "Seattle",
+      "alternates": ["BFI", "PAE"]
+    },
+    {
+      "code": "PHX",
+      "name": "Phoenix Sky Harbor International",
+      "city": "Phoenix",
+      "alternates": ["AZA", "GYR"]
+    },
+    {
+      "code": "IAH",
+      "name": "George Bush Intercontinental",
+      "city": "Houston",
+      "alternates": ["HOU", "EFD"]
+    },
+    {
+      "code": "MCO",
+      "name": "Orlando International",
+      "city": "Orlando",
+      "alternates": ["SFB", "DAB"]
+    },
+    {
+      "code": "BOS",
+      "name": "Logan International",
+      "city": "Boston",
+      "alternates": ["PWM", "PVD", "BDL"]
+    },
+    {
+      "code": "ATL",
+      "name": "Hartsfield-Jackson Atlanta International",
+      "city": "Atlanta",
+      "alternates": ["AGS"]
+    },
+    {
+      "code": "MSP",
+      "name": "Minneapolis-Saint Paul International",
+      "city": "Minneapolis",
+      "alternates": ["STC"]
+    },
+    {
+      "code": "DTW",
+      "name": "Detroit Metropolitan Wayne County",
+      "city": "Detroit",
+      "alternates": ["DET", "YIP"]
+    },
+    {
+      "code": "LHR",
+      "name": "London Heathrow",
+      "city": "London",
+      "alternates": ["LGW", "STN", "LTN", "SEN"]
+    },
+    {
+      "code": "CDG",
+      "name": "Charles de Gaulle",
+      "city": "Paris",
+      "alternates": ["ORY", "BVA"]
+    },
+    {
+      "code": "FRA",
+      "name": "Frankfurt",
+      "city": "Frankfurt",
+      "alternates": ["HHN", "CGN"]
+    },
+    {
+      "code": "NRT",
+      "name": "Narita International",
+      "city": "Tokyo",
+      "alternates": ["HND", "ITM", "KIX"]
+    },
+    {
+      "code": "ICN",
+      "name": "Incheon International",
+      "city": "Seoul",
+      "alternates": ["GMP"]
+    },
+    {
+      "code": "SYD",
+      "name": "Sydney Kingsford Smith",
+      "city": "Sydney",
+      "alternates": ["AVV", "OOL"]
+    },
+    {
+      "code": "YVR",
+      "name": "Vancouver International",
+      "city": "Vancouver",
+      "alternates": ["YKA", "YXX"]
+    },
+    {
+      "code": "YYZ",
+      "name": "Toronto Pearson International",
+      "city": "Toronto",
+      "alternates": ["YTZ", "YHM", "YKF"]
+    },
+    {
+      "code": "DCA",
+      "name": "Ronald Reagan Washington National",
+      "city": "Washington DC",
+      "alternates": ["IAD", "BWI"]
+    },
+    {
+      "code": "BWI",
+      "name": "Baltimore-Washington International",
+      "city": "Baltimore",
+      "alternates": ["DCA", "IAD"]
+    },
+    {
+      "code": "IAD",
+      "name": "Washington Dulles International",
+      "city": "Washington DC",
+      "alternates": ["DCA", "BWI"]
+    },
+    {
+      "code": "CLT",
+      "name": "Charlotte Douglas International",
+      "city": "Charlotte",
+      "alternates": ["GSO"]
+    },
+    {
+      "code": "PHL",
+      "name": "Philadelphia International",
+      "city": "Philadelphia",
+      "alternates": ["ABE", "ACY"]
+    },
+    {
+      "code": "SAN",
+      "name": "San Diego International",
+      "city": "San Diego",
+      "alternates": ["TIJ", "CLD"]
+    }
+  ]
+}
