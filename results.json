@@ -1,22 +1,4452 @@
 {
-  "query": {
+  "meta": {
     "origin": "LAX",
     "destination": "DXB",
-    "departureDate": "2026-04-28"
-  },
-  "timestamp": "2026-02-13T23:03:09.946Z",
-  "totalFlights": 0,
-  "scraperResults": [
-    {
-      "scraper": "aeroplan",
-      "status": "success",
-      "flights": [],
-      "duration": 53510,
-      "stats": {
-        "requests": 0,
-        "cacheHits": 0,
-        "bytes": 0
-      }
+    "departureDate": "2026-04-28",
+    "returnDate": null,
+    "searchedAt": "2026-02-16T02:20:47.179Z",
+    "sources": [
+      "roame"
+    ],
+    "completionPct": {
+      "roame": 69
     }
+  },
+  "balances": [
+    {
+      "program": "Marriott Bonvoy",
+      "programKey": "marriott",
+      "balance": 984722,
+      "displayBalance": "984,722"
+    },
+    {
+      "program": "Air France (Flying Blue)",
+      "programKey": "FLYING_BLUE",
+      "balance": 851165,
+      "displayBalance": "851,165"
+    },
+    {
+      "program": "Hilton (Honors)",
+      "programKey": "hilton",
+      "balance": 561287,
+      "displayBalance": "561,287"
+    },
+    {
+      "program": "Air Canada (Aeroplan)",
+      "programKey": "AEROPLAN",
+      "balance": 475663,
+      "displayBalance": "475,663"
+    },
+    {
+      "program": "Marriott Bonvoy",
+      "programKey": "marriott",
+      "balance": 407538,
+      "displayBalance": "407,538"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 387429,
+      "displayBalance": "387,429"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 361315,
+      "displayBalance": "361,315"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 348211,
+      "displayBalance": "348,211"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 218340,
+      "displayBalance": "218,340"
+    },
+    {
+      "program": "Hilton (Honors)",
+      "programKey": "hilton",
+      "balance": 172955,
+      "displayBalance": "172,955"
+    },
+    {
+      "program": "Delta Air Lines (SkyMiles)",
+      "programKey": "DELTA",
+      "balance": 155954,
+      "displayBalance": "155,954"
+    },
+    {
+      "program": "Southwest Airlines (Rapid Rewards)",
+      "programKey": "southwest",
+      "balance": 144000,
+      "displayBalance": "144,000"
+    },
+    {
+      "program": "Delta Air Lines (SkyMiles)",
+      "programKey": "DELTA",
+      "balance": 137476,
+      "displayBalance": "137,476"
+    },
+    {
+      "program": "British Airways (Club)",
+      "programKey": "BRITISH_AIRWAYS",
+      "balance": 71449,
+      "displayBalance": "71,449"
+    },
+    {
+      "program": "United Airlines (Mileage Plus)",
+      "programKey": "UNITED",
+      "balance": 70000,
+      "displayBalance": "70,000"
+    },
+    {
+      "program": "Virgin Atlantic (Flying Club)",
+      "programKey": "VIRGIN_ATLANTIC",
+      "balance": 60728,
+      "displayBalance": "60,728"
+    },
+    {
+      "program": "Bank Of America",
+      "programKey": "bank-of-america",
+      "balance": 59449,
+      "displayBalance": "59,449"
+    },
+    {
+      "program": "Bilt Rewards",
+      "programKey": "bilt",
+      "balance": 59390,
+      "displayBalance": "59,390"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 47660,
+      "displayBalance": "47,660"
+    },
+    {
+      "program": "JetBlue Airways (TrueBlue)",
+      "programKey": "jetblue-airways-(trueblue)",
+      "balance": 44344,
+      "displayBalance": "44,344"
+    },
+    {
+      "program": "PenFed (Rewards)",
+      "programKey": "penfed-(rewards)",
+      "balance": 41094,
+      "displayBalance": "41,094"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 30025,
+      "displayBalance": "30,025"
+    },
+    {
+      "program": "Hyatt (World of Hyatt)",
+      "programKey": "hyatt-(world-of-hyatt)",
+      "balance": 22560,
+      "displayBalance": "22,560"
+    },
+    {
+      "program": "Hyatt (World of Hyatt)",
+      "programKey": "hyatt-(world-of-hyatt)",
+      "balance": 22388,
+      "displayBalance": "22,388"
+    },
+    {
+      "program": "HSBC Rewards",
+      "programKey": "hsbc-rewards",
+      "balance": 11371,
+      "displayBalance": "11,371"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 10000,
+      "displayBalance": "10,000"
+    },
+    {
+      "program": "JetBlue Airways (TrueBlue)",
+      "programKey": "jetblue-airways-(trueblue)",
+      "balance": 4824,
+      "displayBalance": "4,824"
+    },
+    {
+      "program": "Hertz (Gold Plus Rewards)",
+      "programKey": "hertz-(gold-plus-rewards)",
+      "balance": 2452,
+      "displayBalance": "2,452"
+    },
+    {
+      "program": "IHG Hotels &amp; Resorts (One Rewards)",
+      "programKey": "ihg-hotels-&amp;-resorts-(one-rewards)",
+      "balance": 1220,
+      "displayBalance": "1,220"
+    },
+    {
+      "program": "Bilt Rewards",
+      "programKey": "bilt",
+      "balance": 901,
+      "displayBalance": "901"
+    },
+    {
+      "program": "Qantas (Frequent Flyer)",
+      "programKey": "QANTAS",
+      "balance": 711,
+      "displayBalance": "711"
+    },
+    {
+      "program": "Singapore Airlines (KrisFlyer)",
+      "programKey": "singapore-airlines-(krisflyer)",
+      "balance": 371,
+      "displayBalance": "371"
+    },
+    {
+      "program": "Southwest Airlines (Rapid Rewards)",
+      "programKey": "southwest",
+      "balance": 250,
+      "displayBalance": "250"
+    },
+    {
+      "program": "Hotels.com",
+      "programKey": "hotels.com",
+      "balance": 89.61,
+      "displayBalance": "89.61"
+    }
+  ],
+  "flights": [
+    {
+      "id": "roame-UNITED-0",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "1981",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1195,
+      "departureTime": "2026-04-28T11:40:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 30000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 2.6,
+      "roameScore": 1580,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-1",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2096",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1390,
+      "departureTime": "2026-04-28T08:25:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "777",
+        "77W"
+      ],
+      "points": 30000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 2.6,
+      "roameScore": 1838,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-2",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2743",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1460,
+      "departureTime": "2026-04-28T07:15:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 30000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 2.6,
+      "roameScore": 1930,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-3",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2359",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1535,
+      "departureTime": "2026-04-28T06:00:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 30000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 2.6,
+      "roameScore": 2029,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-4",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2127",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1275,
+      "departureTime": "2026-04-28T10:20:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 59100,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.3,
+      "roameScore": 3301,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-5",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "LH / LH",
+      "operatingAirlines": [
+        "LH",
+        "LH"
+      ],
+      "flightNumbers": [
+        "457",
+        "630"
+      ],
+      "stops": 1,
+      "durationMinutes": 1240,
+      "departureTime": "2026-04-28T15:05:00-07:00",
+      "arrivalTime": "2026-04-29T22:45:00+04:00",
+      "airports": [
+        "LAX",
+        "FRA",
+        "FRA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "74H",
+        "333"
+      ],
+      "points": 74000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 52.8,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 4157,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-6",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "1981",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1195,
+      "departureTime": "2026-04-28T11:40:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 50000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 2620,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-UNITED-7",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2096",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1390,
+      "departureTime": "2026-04-28T08:25:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "777",
+        "77W"
+      ],
+      "points": 50000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 3048,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-UNITED-8",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2743",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1460,
+      "departureTime": "2026-04-28T07:15:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 50000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 3201,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-UNITED-9",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2359",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1535,
+      "departureTime": "2026-04-28T06:00:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 50000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 3366,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-UNITED-10",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2127",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1275,
+      "departureTime": "2026-04-28T10:20:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 50000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.6,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 2796,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-JETBLUE-11",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "1981",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1195,
+      "departureTime": "2026-04-28T11:40:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 94900,
+      "pointsProgram": "JETBLUE",
+      "cashPrice": null,
+      "taxes": 257,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 5700,
+      "availableSeats": 9,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-JETBLUE-12",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 46000,
+      "pointsProgram": "JETBLUE",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 2291,
+      "availableSeats": 2,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-13",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "798",
+        "720",
+        "1018"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73J",
+        "77W",
+        "359"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2914,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-14",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "798",
+        "720",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73J",
+        "77W",
+        "77W"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2914,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-15",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1361",
+        "738",
+        "1018"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73H",
+        "351",
+        "359"
+      ],
+      "points": 55000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.4,
+      "roameScore": 3711,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-16",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1361",
+        "738",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73H",
+        "351",
+        "77W"
+      ],
+      "points": 55000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.4,
+      "roameScore": 3711,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-17",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1018"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2158,
+      "availableSeats": 6,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-18",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2158,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-19",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1002"
+      ],
+      "stops": 1,
+      "durationMinutes": 1445,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2874,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-20",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1006"
+      ],
+      "stops": 1,
+      "durationMinutes": 1855,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T10:15:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 59,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 3704,
+      "availableSeats": 5,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-21",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1022"
+      ],
+      "stops": 1,
+      "durationMinutes": 1940,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T11:40:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 59,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 3873,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-22",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "EK",
+      "operatingAirlines": [
+        "EK"
+      ],
+      "flightNumbers": [
+        "216"
+      ],
+      "stops": 0,
+      "durationMinutes": 950,
+      "departureTime": "2026-04-28T16:40:00-07:00",
+      "arrivalTime": "2026-04-29T19:30:00+04:00",
+      "airports": [
+        "LAX",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        ""
+      ],
+      "points": 48200,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 1.2,
+      "roameScore": 2473,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-23",
+      "source": "roame",
+      "type": "award",
+      "origin": "ONT",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "654",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1251,
+      "departureTime": "2026-04-28T10:39:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "ONT",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 64300,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 0.9,
+      "roameScore": 4140,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-24",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "798",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1290,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 64300,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 0.9,
+      "roameScore": 4262,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-25",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "BA / EK",
+      "operatingAirlines": [
+        "BA",
+        "EK"
+      ],
+      "flightNumbers": [
+        "268",
+        "32"
+      ],
+      "stops": 1,
+      "durationMinutes": 1320,
+      "departureTime": "2026-04-28T20:55:00-07:00",
+      "arrivalTime": "2026-04-30T05:55:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 368,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 5046,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-26",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "1361",
+        "226"
+      ],
+      "stops": 1,
+      "durationMinutes": 1360,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T19:40:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 59700,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 4221,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-27",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "BA / EK",
+      "operatingAirlines": [
+        "BA",
+        "EK"
+      ],
+      "flightNumbers": [
+        "268",
+        "4"
+      ],
+      "stops": 1,
+      "durationMinutes": 1360,
+      "departureTime": "2026-04-28T20:55:00-07:00",
+      "arrivalTime": "2026-04-30T06:35:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 368,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 5199,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-28",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "717",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1365,
+      "departureTime": "2026-04-28T08:45:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 64300,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 0.9,
+      "roameScore": 4510,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-29",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "BA / EK",
+      "operatingAirlines": [
+        "BA",
+        "EK"
+      ],
+      "flightNumbers": [
+        "268",
+        "68"
+      ],
+      "stops": 1,
+      "durationMinutes": 1390,
+      "departureTime": "2026-04-28T20:55:00-07:00",
+      "arrivalTime": "2026-04-30T07:05:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "STN",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 351,
+      "currency": "USD",
+      "cppValue": 0.7,
+      "roameScore": 5255,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-30",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "BA / EK",
+      "operatingAirlines": [
+        "BA",
+        "EK"
+      ],
+      "flightNumbers": [
+        "268",
+        "10"
+      ],
+      "stops": 1,
+      "durationMinutes": 1425,
+      "departureTime": "2026-04-28T20:55:00-07:00",
+      "arrivalTime": "2026-04-30T07:40:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LGW",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 360,
+      "currency": "USD",
+      "cppValue": 0.7,
+      "roameScore": 5419,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-31",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "BA / EK",
+      "operatingAirlines": [
+        "BA",
+        "EK"
+      ],
+      "flightNumbers": [
+        "268",
+        "6"
+      ],
+      "stops": 1,
+      "durationMinutes": 1450,
+      "departureTime": "2026-04-28T20:55:00-07:00",
+      "arrivalTime": "2026-04-30T08:05:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 368,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 5543,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-32",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "1339",
+        "226"
+      ],
+      "stops": 1,
+      "durationMinutes": 1455,
+      "departureTime": "2026-04-28T08:25:00-07:00",
+      "arrivalTime": "2026-04-29T19:40:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 59700,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 4516,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-QANTAS-33",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "1413",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1500,
+      "departureTime": "2026-04-28T06:30:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 64300,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 203,
+      "currency": "USD",
+      "cppValue": 0.9,
+      "roameScore": 4956,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-VIRGIN_AUSTRALIA-34",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "1981",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1195,
+      "departureTime": "2026-04-28T11:40:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 57500,
+      "pointsProgram": "VIRGIN_AUSTRALIA",
+      "cashPrice": null,
+      "taxes": 34.6,
+      "currency": "USD",
+      "cppValue": 1.3,
+      "roameScore": 3094,
+      "availableSeats": 9,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-VIRGIN_AUSTRALIA-35",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "SQ / SQ",
+      "operatingAirlines": [
+        "SQ",
+        "SQ"
+      ],
+      "flightNumbers": [
+        "37",
+        "494"
+      ],
+      "stops": 1,
+      "durationMinutes": 1890,
+      "departureTime": "2026-04-28T23:30:00-07:00",
+      "arrivalTime": "2026-04-30T18:00:00+04:00",
+      "airports": [
+        "LAX",
+        "SIN",
+        "SIN",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "388"
+      ],
+      "points": 80000,
+      "pointsProgram": "VIRGIN_AUSTRALIA",
+      "cashPrice": null,
+      "taxes": 127.3,
+      "currency": "USD",
+      "cppValue": 0.8,
+      "roameScore": 7180,
+      "availableSeats": 4,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-VIRGIN_AUSTRALIA-36",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 65000,
+      "pointsProgram": "VIRGIN_AUSTRALIA",
+      "cashPrice": null,
+      "taxes": 172.5,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 3535,
+      "availableSeats": 2,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-VIRGIN_AUSTRALIA-37",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1002"
+      ],
+      "stops": 1,
+      "durationMinutes": 1445,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 65000,
+      "pointsProgram": "VIRGIN_AUSTRALIA",
+      "cashPrice": null,
+      "taxes": 172.5,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 4708,
+      "availableSeats": 2,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-VIRGIN_AUSTRALIA-38",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "SQ / SQ",
+      "operatingAirlines": [
+        "SQ",
+        "SQ"
+      ],
+      "flightNumbers": [
+        "37",
+        "494"
+      ],
+      "stops": 1,
+      "durationMinutes": 1890,
+      "departureTime": "2026-04-28T23:30:00-07:00",
+      "arrivalTime": "2026-04-30T18:00:00+04:00",
+      "airports": [
+        "LAX",
+        "SIN",
+        "SIN",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "388"
+      ],
+      "points": 142000,
+      "pointsProgram": "VIRGIN_AUSTRALIA",
+      "cashPrice": null,
+      "taxes": 231.9,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 12773,
+      "availableSeats": 5,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-AMERICAN-39",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 2952,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-40",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "1592",
+        "264",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1330,
+      "departureTime": "2026-04-28T11:25:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "738",
+        "788",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 3536,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-41",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "136",
+        "4",
+        "1002"
+      ],
+      "stops": 2,
+      "durationMinutes": 1345,
+      "departureTime": "2026-04-28T18:00:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "78P",
+        "77L",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 86,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 3800,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-42",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "32",
+        "702",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1360,
+      "departureTime": "2026-04-28T11:45:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32B",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3701,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-43",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "3224",
+        "264",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1376,
+      "departureTime": "2026-04-28T10:39:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "788",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 3659,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-44",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1592",
+        "726",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1380,
+      "departureTime": "2026-04-28T11:25:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "738",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3755,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-45",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2832",
+        "730",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1395,
+      "departureTime": "2026-04-28T11:10:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3796,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-46",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "XNB",
+      "airline": "AA / EY / EY",
+      "operatingAirlines": [
+        "AA",
+        "EY",
+        "EY"
+      ],
+      "flightNumbers": [
+        "136",
+        "64",
+        "5414"
+      ],
+      "stops": 2,
+      "durationMinutes": 1425,
+      "departureTime": "2026-04-28T18:00:00-07:00",
+      "arrivalTime": "2026-04-30T04:45:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "AUH",
+        "AUH",
+        "XNB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "78P",
+        "781",
+        "BUS"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 49,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3895,
+      "availableSeats": 3,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-47",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "3224",
+        "726",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1426,
+      "departureTime": "2026-04-28T10:39:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3880,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-48",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1002"
+      ],
+      "stops": 1,
+      "durationMinutes": 1445,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3932,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-49",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1361",
+        "738",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73H",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3986,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-50",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "798",
+        "720",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73J",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 3986,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-51",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1802",
+        "756",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1496,
+      "departureTime": "2026-04-28T09:29:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "ATL",
+        "ATL",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4071,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-52",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "3334",
+        "732",
+        "1002"
+      ],
+      "stops": 2,
+      "durationMinutes": 1505,
+      "departureTime": "2026-04-28T15:20:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4095,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-53",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1224",
+        "730",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1525,
+      "departureTime": "2026-04-28T09:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4150,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-54",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "1598",
+        "264",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1535,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "788",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 4081,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-55",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "307",
+        "262",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1535,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "787",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 4081,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-56",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "717",
+        "720",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1540,
+      "departureTime": "2026-04-28T08:45:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "7M8",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4190,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-57",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2264",
+        "732",
+        "1002"
+      ],
+      "stops": 2,
+      "durationMinutes": 1550,
+      "departureTime": "2026-04-28T14:35:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4218,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-58",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1339",
+        "738",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1560,
+      "departureTime": "2026-04-28T08:25:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73H",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4245,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-59",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "28",
+        "704",
+        "1022"
+      ],
+      "stops": 2,
+      "durationMinutes": 1565,
+      "departureTime": "2026-04-28T22:35:00-07:00",
+      "arrivalTime": "2026-04-30T11:40:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32B",
+        "77W",
+        "359"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4258,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-60",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1598",
+        "726",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1585,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4313,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-61",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2766",
+        "730",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1585,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "738",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4313,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-62",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "307",
+        "702",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1585,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4313,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-63",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "345",
+        "778",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1585,
+      "departureTime": "2026-04-28T08:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "MIA",
+        "MIA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "788",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4313,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-64",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "3013",
+        "782",
+        "1002"
+      ],
+      "stops": 2,
+      "durationMinutes": 1594,
+      "departureTime": "2026-04-28T13:51:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "MIA",
+        "MIA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4337,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-65",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "2",
+        "262",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1595,
+      "departureTime": "2026-04-28T07:00:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32B",
+        "787",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 4241,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-66",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2028",
+        "732",
+        "1002"
+      ],
+      "stops": 2,
+      "durationMinutes": 1612,
+      "departureTime": "2026-04-28T13:33:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4386,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-67",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "3223",
+        "710",
+        "1022"
+      ],
+      "stops": 2,
+      "durationMinutes": 1615,
+      "departureTime": "2026-04-28T21:45:00-07:00",
+      "arrivalTime": "2026-04-30T11:40:00+04:00",
+      "airports": [
+        "LAX",
+        "IAD",
+        "IAD",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "7M8",
+        "359",
+        "359"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4395,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-68",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "XNB",
+      "airline": "AA / EY / EY",
+      "operatingAirlines": [
+        "AA",
+        "EY",
+        "EY"
+      ],
+      "flightNumbers": [
+        "134",
+        "68",
+        "5416"
+      ],
+      "stops": 2,
+      "durationMinutes": 1625,
+      "departureTime": "2026-04-28T20:20:00-07:00",
+      "arrivalTime": "2026-04-30T10:25:00+04:00",
+      "airports": [
+        "LAX",
+        "LHR",
+        "LHR",
+        "AUH",
+        "AUH",
+        "XNB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "388",
+        "BUS"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 49,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4442,
+      "availableSeats": 3,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-69",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2746",
+        "730",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1645,
+      "departureTime": "2026-04-28T07:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DFW",
+        "DFW",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "321",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4476,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-70",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2",
+        "702",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1645,
+      "departureTime": "2026-04-28T07:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32B",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4476,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-71",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / QR / QR",
+      "operatingAirlines": [
+        "AA",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "3253",
+        "778",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1645,
+      "departureTime": "2026-04-28T07:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "MIA",
+        "MIA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "7M8",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4476,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-72",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "383",
+        "264",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1651,
+      "departureTime": "2026-04-28T06:04:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "ORD",
+        "ORD",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "738",
+        "788",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 4390,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-73",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / RJ / RJ",
+      "operatingAirlines": [
+        "AA",
+        "RJ",
+        "RJ"
+      ],
+      "flightNumbers": [
+        "118",
+        "262",
+        "614"
+      ],
+      "stops": 2,
+      "durationMinutes": 1655,
+      "departureTime": "2026-04-28T06:00:00-07:00",
+      "arrivalTime": "2026-04-29T20:35:00+04:00",
+      "airports": [
+        "LAX",
+        "JFK",
+        "JFK",
+        "AMM",
+        "AMM",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32B",
+        "787",
+        "787"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 19,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 4400,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-74",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1413",
+        "720",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1675,
+      "departureTime": "2026-04-28T06:30:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "73J",
+        "77W",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4558,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-75",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AA / AA / QR",
+      "operatingAirlines": [
+        "AA",
+        "AA",
+        "QR"
+      ],
+      "flightNumbers": [
+        "839",
+        "120",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1685,
+      "departureTime": "2026-04-28T06:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "PHL",
+        "PHL",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "789",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4585,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-76",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "2285",
+        "738",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1692,
+      "departureTime": "2026-04-28T06:13:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "E75",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 44,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 4604,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-AMERICAN-77",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1022"
+      ],
+      "stops": 1,
+      "durationMinutes": 1940,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T11:40:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 46,
+      "currency": "USD",
+      "cppValue": 1.9,
+      "roameScore": 5289,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-UNITED-0",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "1981",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1195,
+      "departureTime": "2026-04-28T11:40:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 220000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.8,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 358,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-UNITED-1",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2096",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1390,
+      "departureTime": "2026-04-28T08:25:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "777",
+        "77W"
+      ],
+      "points": 245000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.8,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 543,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-UNITED-2",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2743",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1460,
+      "departureTime": "2026-04-28T07:15:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 220000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.8,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 531,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-UNITED-3",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2359",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1535,
+      "departureTime": "2026-04-28T06:00:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 245000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.8,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 655,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-UNITED-4",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "2127",
+        "164"
+      ],
+      "stops": 1,
+      "durationMinutes": 1275,
+      "departureTime": "2026-04-28T10:20:00-07:00",
+      "arrivalTime": "2026-04-29T18:35:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "EWR",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "752",
+        "77W"
+      ],
+      "points": 245000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 6.8,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 449,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-ALASKA-5",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1002"
+      ],
+      "stops": 1,
+      "durationMinutes": 1445,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T03:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 571,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-ALASKA-6",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "798",
+        "720",
+        "1018"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "73J",
+        "77W",
+        "359"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 673,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-7",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "798",
+        "720",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "73J",
+        "77W",
+        "77W"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 673,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-8",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1018"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 351,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-9",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 351,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-10",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1006"
+      ],
+      "stops": 1,
+      "durationMinutes": 1855,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T10:15:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 59,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 998,
+      "availableSeats": 5,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-11",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1022"
+      ],
+      "stops": 1,
+      "durationMinutes": 1940,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-30T11:40:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 59,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 1106,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-12",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1361",
+        "738",
+        "1018"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "first",
+      "equipment": [
+        "73H",
+        "351",
+        "359"
+      ],
+      "points": 255000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 3.1,
+      "roameScore": 633,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "FIRSTMIXED"
+    },
+    {
+      "id": "roame-ALASKA-13",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / QR / QR",
+      "operatingAirlines": [
+        "AS",
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1361",
+        "738",
+        "1014"
+      ],
+      "stops": 2,
+      "durationMinutes": 1465,
+      "departureTime": "2026-04-28T10:00:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "SFO",
+        "SFO",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "first",
+      "equipment": [
+        "73H",
+        "351",
+        "77W"
+      ],
+      "points": 255000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 3.1,
+      "roameScore": 633,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "FIRSTMIXED"
+    },
+    {
+      "id": "roame-QANTAS-14",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "717",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1365,
+      "departureTime": "2026-04-28T08:45:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 161600,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 835,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 478,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-QANTAS-15",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AS / EK",
+      "operatingAirlines": [
+        "AS",
+        "EK"
+      ],
+      "flightNumbers": [
+        "1413",
+        "230"
+      ],
+      "stops": 1,
+      "durationMinutes": 1500,
+      "departureTime": "2026-04-28T06:30:00-07:00",
+      "arrivalTime": "2026-04-29T18:30:00+04:00",
+      "airports": [
+        "LAX",
+        "SEA",
+        "SEA",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 161600,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 835,
+      "currency": "USD",
+      "cppValue": 2,
+      "roameScore": 577,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-FLYING_BLUE-16",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AF / AF",
+      "operatingAirlines": [
+        "AF",
+        "AF"
+      ],
+      "flightNumbers": [
+        "23",
+        "662"
+      ],
+      "stops": 1,
+      "durationMinutes": 1220,
+      "departureTime": "2026-04-28T15:15:00-07:00",
+      "arrivalTime": "2026-04-29T22:35:00+04:00",
+      "airports": [
+        "LAX",
+        "CDG",
+        "CDG",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "77W"
+      ],
+      "points": 432500,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 397.9,
+      "currency": "USD",
+      "cppValue": 0.8,
+      "roameScore": 805,
+      "availableSeats": 4,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-FLYING_BLUE-17",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "604",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1155,
+      "departureTime": "2026-04-28T16:45:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 432500,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 397.9,
+      "currency": "USD",
+      "cppValue": 0.8,
+      "roameScore": 762,
+      "availableSeats": 2,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "BUSINESS"
+    },
+    {
+      "id": "roame-FLYING_BLUE-18",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "602",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1330,
+      "departureTime": "2026-04-28T13:50:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 432500,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 397.9,
+      "currency": "USD",
+      "cppValue": 0.8,
+      "roameScore": 1000,
+      "availableSeats": 2,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "BUSINESS"
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "title": "ALASKA → AS / QR / QR",
+      "subtitle": "first class via LAX→SFO→SFO→DOH→DOH→DXB",
+      "details": [
+        "✈️ 1361 / 738 / 1018",
+        "⏱ 24h25m, 2 stops",
+        "⚠️ Need 207,340 more miles"
+      ],
+      "totalCost": "255,000 pts + $56",
+      "cppValue": "3.1¢/mi",
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "badgeText": "#1 BEST VALUE",
+      "badgeColor": "emerald"
+    },
+    {
+      "rank": 2,
+      "title": "ALASKA → QR / QR",
+      "subtitle": "business class • LAX→DOH→DOH→DXB",
+      "details": [
+        "✈️ 740 / 1022",
+        "🏆 Roame Score: 1106",
+        "⏱ 32h20m"
+      ],
+      "totalCost": "215,000 pts + $59",
+      "cppValue": "1.8¢/mi",
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "badgeText": "#2 BEST PRODUCT",
+      "badgeColor": "accent"
+    }
+  ],
+  "warnings": [
+    "⚠️ Chase UR → Emirates Skywards transfers ENDED Oct 2025",
+    "⚠️ Virgin Atlantic does NOT book Emirates flights",
+    "⚠️ Alaska only has 47,660 — enough for ~1 business OW or 1 economy RT"
   ]
 }
