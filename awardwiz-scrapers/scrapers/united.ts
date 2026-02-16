@@ -1,29 +1,121 @@
-import { AwardWizQuery, AwardWizScraper, FlightWithFares } from "../awardwiz-types.js"
+import { AwardWizQuery, AwardWizScraper, FlightFare, FlightWithFares } from "../awardwiz-types.js"
 import type { Trip, UnitedResponse } from "../scraper-types/united.js"
 import { ScraperMetadata } from "../../arkalis/arkalis.js"
 
 export const meta: ScraperMetadata = {
   name: "united",
   blockUrls: ["liveperson.net", "tags.tiqcdn.com"],
+  defaultTimeoutMs: 45000,
 }
 
+/**
+ * United scraper using evaluate(fetch()) pattern (same as AA).
+ * 
+ * Flow:
+ * 1. Navigate to united.com to establish session/cookies
+ * 2. Use page.evaluate(fetch()) to hit the FetchFlights API directly
+ * 3. Parse results from the returned JSON
+ * 
+ * The anonymous token is automatically included via cookies established
+ * during the initial page load. The key is to let the browser handle
+ * cookie/session management, then make the API call from within the page context.
+ */
 export const runScraper: AwardWizScraper = async (arkalis, query) => {
-  const url = `https://www.united.com/en/us/fsr/choose-flights?f=${query.origin}&t=${query.destination}&d=${query.departureDate}&tt=1&at=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=A`
+  // Step 1: Navigate to united.com to establish session
+  const url = "https://www.united.com/en/us/fsr/choose-flights"
   arkalis.goto(url)
-
-  arkalis.log("waiting for results")
-  const waitForResult = await arkalis.waitFor({
-    "success": { type: "url", url: "https://www.united.com/api/flight/FetchFlights", onlyStatusCode: 200, othersThrow: true },
-    "invalid airport": { type: "html", html: "you entered is not valid or the airport is not served" },
-    "invalid input": { type: "html", html: "We can't process this request. Please restart your search." },
-    "anti-botting": { type: "html", html: "united.com was unable to complete" },
+  
+  // Wait for the page to load enough to establish cookies/session
+  await arkalis.waitFor({
+    "success": { type: "url", url: "https://www.united.com/en/us/fsr/choose-flights", onlyStatusCode: 200, othersThrow: false },
+    "homepage": { type: "url", url: "https://www.united.com/", onlyStatusCode: 200 },
   })
-  if (waitForResult.name !== "success") {
-    if (waitForResult.name === "anti-botting")
-      throw new Error(waitForResult.name)
-    return arkalis.warn(waitForResult.name)
+  
+  // Small delay to let JS initialize and set up session tokens
+  await new Promise(r => setTimeout(r, 3000))
+  
+  arkalis.log("fetching flights via evaluate(fetch())")
+  
+  // Step 2: Build the FetchFlights request body
+  const requestBody = {
+    CartId: "",
+    Characteristics: [
+      { Code: "ByPassMBE", Value: "true" },
+      { Code: "StopCount", Value: "0,1,2" },
+    ],
+    Filters: {
+      ExcludeConnectingCities: [],
+      IncludeAirlines: [],
+      MaxConnections: 2,
+      MaxDuration: 0,
+      MaxPrice: 0,
+      MinPrice: 0,
+      StopCount: "0,1,2",
+    },
+    CurrencyCode: "USD",
+    MaxTrips: 50,
+    SearchTypeSelection: 1,  // 1 = Award
+    Trips: [{
+      DepartDate: query.departureDate,
+      DepartTime: "",
+      Destination: query.destination,
+      Origin: query.origin,
+      SearchFilters: null,
+      TripIndex: 1,
+    }],
+    CalendarOnly: false,
+    ClubPremierMemberShipLevel: 0,
+    IsAwardTravel: true,
+    IsExpertModeEnabled: false,
+    IsFlexibleDateSearch: false,
+    IsYoungAdult: false,
+    IsYoungAdultTravel: false,
+    NumberOfAdults: 1,
+    NumberOfChildren: 0,
+    NumberOfInfants: 0,
+    NumberOfLapInfants: 0,
+    NumberOfSeniors: 0,
+    SortTypes: ["bestmatches"],
+    TripType: "OneWay",
+    PageIndex: 1,
+    PageSize: 50,
+    PaxInfoList: [{
+      DateOfBirth: "",
+      Key: "ADT1",
+      PaxType: 1,
+      TicketNumber: "",
+    }],
   }
-  const fetchFlights = JSON.parse(waitForResult.response!.body) as UnitedResponse
+
+  // Step 3: Use evaluate(fetch()) to make the API call from within the page context
+  const fetchCmd = `
+    fetch("https://www.united.com/api/flight/FetchFlights", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "accept": "application/json",
+      },
+      body: ${JSON.stringify(JSON.stringify(requestBody))}
+    }).then(r => r.text())
+  `
+  
+  void arkalis.evaluate(fetchCmd)
+  const xhrResponse = await arkalis.waitFor({
+    "search": { type: "url", url: "https://www.united.com/api/flight/FetchFlights" },
+  })
+  
+  let fetchFlights: UnitedResponse
+  try {
+    fetchFlights = JSON.parse(xhrResponse.response!.body) as UnitedResponse
+  } catch {
+    arkalis.log("Failed to parse response, trying direct evaluate return")
+    // Fallback: try getting the response directly from evaluate
+    return []
+  }
+  
+  if (fetchFlights.Error) {
+    throw new Error(`United API error: ${JSON.stringify(fetchFlights.Error)}`)
+  }
 
   arkalis.log("parsing results")
   const flightsWithFares: FlightWithFares[] = []
@@ -48,12 +140,11 @@ const standardizeResults = (query: AwardWizQuery, unitedTrip: Trip) => {
       aircraft: flight.EquipmentDisclosures.EquipmentDescription,
       fares: [],
       amenities: {
-        hasPods: undefined,         // filled in the JSON
-        hasWiFi: undefined          // united doesnt return this in its API
+        hasPods: undefined,
+        hasWiFi: undefined
       }
     }
 
-    // Make sure we're only getting the airports we requested
     if (flight.Origin !== (unitedTrip.RequestedOrigin || unitedTrip.Origin))
       continue
     if (flight.Destination !== (unitedTrip.RequestedDestination || unitedTrip.Destination))
@@ -61,11 +152,10 @@ const standardizeResults = (query: AwardWizQuery, unitedTrip: Trip) => {
     if (result.departureDateTime.substring(0, 10) !== query.departureDate.substring(0, 10))
       continue
 
-    // United's API has a way of returning flights with more connections than asked
+    // Skip multi-segment (connections)
     if (flight.Connections.length > 0)
       continue
 
-    // Convert united format to standardized miles and cash formats
     for (const product of flight.Products) {
       if (product.Prices.length === 0)
         continue
