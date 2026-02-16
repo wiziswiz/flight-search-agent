@@ -4,11 +4,13 @@
     "destination": "DXB",
     "departureDate": "2026-04-28",
     "returnDate": null,
-    "searchedAt": "2026-02-16T02:20:47.179Z",
+    "searchedAt": "2026-02-16T02:29:58.806Z",
     "sources": [
-      "roame"
+      "roame",
+      "hidden-city"
     ],
     "completionPct": {
+      "hidden-city": 100,
       "roame": 69
     }
   },
@@ -252,10 +254,10 @@
       "points": 30000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 2.6,
-      "roameScore": 1580,
+      "roameScore": 1581,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -293,10 +295,10 @@
       "points": 30000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 2.6,
-      "roameScore": 1838,
+      "roameScore": 1839,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -334,10 +336,10 @@
       "points": 30000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 2.6,
-      "roameScore": 1930,
+      "roameScore": 1932,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -375,10 +377,10 @@
       "points": 30000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 2.6,
-      "roameScore": 2029,
+      "roameScore": 2031,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -416,10 +418,10 @@
       "points": 59100,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.3,
-      "roameScore": 3301,
+      "roameScore": 3302,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -457,10 +459,10 @@
       "points": 74000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 52.8,
+      "taxes": 53.6,
       "currency": "USD",
       "cppValue": 1,
-      "roameScore": 4157,
+      "roameScore": 4159,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "ECON"
@@ -498,10 +500,10 @@
       "points": 50000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
-      "roameScore": 2620,
+      "roameScore": 2621,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "PREMECON"
@@ -539,10 +541,10 @@
       "points": 50000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
-      "roameScore": 3048,
+      "roameScore": 3049,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "PREMECON"
@@ -580,10 +582,10 @@
       "points": 50000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
-      "roameScore": 3201,
+      "roameScore": 3203,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "PREMECON"
@@ -621,10 +623,10 @@
       "points": 50000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
-      "roameScore": 3366,
+      "roameScore": 3367,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "PREMECON"
@@ -662,16 +664,103 @@
       "points": 50000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.6,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
-      "roameScore": 2796,
+      "roameScore": 2797,
       "availableSeats": 9,
       "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
       "fareClass": "PREMECON"
     },
     {
-      "id": "roame-JETBLUE-11",
+      "id": "roame-LIFEMILES-11",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "LH / LH",
+      "operatingAirlines": [
+        "LH",
+        "LH"
+      ],
+      "flightNumbers": [
+        "457",
+        "630"
+      ],
+      "stops": 1,
+      "durationMinutes": 1240,
+      "departureTime": "2026-04-28T15:05:00-07:00",
+      "arrivalTime": "2026-04-29T22:45:00+04:00",
+      "airports": [
+        "LAX",
+        "FRA",
+        "FRA",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "74H",
+        "333"
+      ],
+      "points": 70000,
+      "pointsProgram": "LIFEMILES",
+      "cashPrice": null,
+      "taxes": 70,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 3994,
+      "availableSeats": 9,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-LIFEMILES-12",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "UA / TK / TK",
+      "operatingAirlines": [
+        "UA",
+        "TK",
+        "TK"
+      ],
+      "flightNumbers": [
+        "1855",
+        "12",
+        "760"
+      ],
+      "stops": 2,
+      "durationMinutes": 1445,
+      "departureTime": "2026-04-28T13:15:00-07:00",
+      "arrivalTime": "2026-04-30T00:20:00+04:00",
+      "airports": [
+        "LAX",
+        "EWR",
+        "JFK",
+        "IST",
+        "IST",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "789",
+        "789",
+        "333"
+      ],
+      "points": 70000,
+      "pointsProgram": "LIFEMILES",
+      "cashPrice": null,
+      "taxes": 58,
+      "currency": "USD",
+      "cppValue": 1.1,
+      "roameScore": 4611,
+      "availableSeats": 7,
+      "bookingUrl": "https://roame.travel",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-JETBLUE-13",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -712,7 +801,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-JETBLUE-12",
+      "id": "roame-JETBLUE-14",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -753,7 +842,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-13",
+      "id": "roame-ALASKA-15",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -799,7 +888,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-14",
+      "id": "roame-ALASKA-16",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -845,7 +934,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-15",
+      "id": "roame-ALASKA-17",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -891,7 +980,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-16",
+      "id": "roame-ALASKA-18",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -937,7 +1026,48 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-17",
+      "id": "roame-ALASKA-19",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1014"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "351",
+        "77W"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 2158,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-ALASKA-20",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -978,48 +1108,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-18",
-      "source": "roame",
-      "type": "award",
-      "origin": "LAX",
-      "destination": "DXB",
-      "airline": "QR / QR",
-      "operatingAirlines": [
-        "QR",
-        "QR"
-      ],
-      "flightNumbers": [
-        "740",
-        "1014"
-      ],
-      "stops": 1,
-      "durationMinutes": 1085,
-      "departureTime": "2026-04-28T16:20:00-07:00",
-      "arrivalTime": "2026-04-29T21:25:00+04:00",
-      "airports": [
-        "LAX",
-        "DOH",
-        "DOH",
-        "DXB"
-      ],
-      "cabinClass": "economy",
-      "equipment": [
-        "351",
-        "77W"
-      ],
-      "points": 42500,
-      "pointsProgram": "ALASKA",
-      "cashPrice": null,
-      "taxes": 56,
-      "currency": "USD",
-      "cppValue": 1.8,
-      "roameScore": 2158,
-      "availableSeats": 2,
-      "bookingUrl": "https://www.alaskaair.com/booking/flights",
-      "fareClass": "ECON"
-    },
-    {
-      "id": "roame-ALASKA-19",
+      "id": "roame-ALASKA-21",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1060,7 +1149,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-20",
+      "id": "roame-ALASKA-22",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1101,7 +1190,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-ALASKA-21",
+      "id": "roame-ALASKA-23",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1142,7 +1231,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-22",
+      "id": "roame-QANTAS-24",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1178,7 +1267,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-23",
+      "id": "roame-QANTAS-25",
       "source": "roame",
       "type": "award",
       "origin": "ONT",
@@ -1219,7 +1308,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-24",
+      "id": "roame-QANTAS-26",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1260,7 +1349,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-25",
+      "id": "roame-QANTAS-27",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1301,7 +1390,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-26",
+      "id": "roame-QANTAS-28",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1342,7 +1431,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-27",
+      "id": "roame-QANTAS-29",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1383,7 +1472,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-28",
+      "id": "roame-QANTAS-30",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1424,7 +1513,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-29",
+      "id": "roame-QANTAS-31",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1465,7 +1554,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-30",
+      "id": "roame-QANTAS-32",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1506,7 +1595,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-31",
+      "id": "roame-QANTAS-33",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1547,7 +1636,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-32",
+      "id": "roame-QANTAS-34",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1588,7 +1677,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-QANTAS-33",
+      "id": "roame-QANTAS-35",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1629,7 +1718,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-VIRGIN_AUSTRALIA-34",
+      "id": "roame-VIRGIN_AUSTRALIA-36",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1670,7 +1759,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-VIRGIN_AUSTRALIA-35",
+      "id": "roame-VIRGIN_AUSTRALIA-37",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1711,7 +1800,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-VIRGIN_AUSTRALIA-36",
+      "id": "roame-VIRGIN_AUSTRALIA-38",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1752,7 +1841,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-VIRGIN_AUSTRALIA-37",
+      "id": "roame-VIRGIN_AUSTRALIA-39",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1793,7 +1882,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-VIRGIN_AUSTRALIA-38",
+      "id": "roame-VIRGIN_AUSTRALIA-40",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1834,7 +1923,7 @@
       "fareClass": "PREMECON"
     },
     {
-      "id": "roame-AMERICAN-39",
+      "id": "roame-AMERICAN-41",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1875,7 +1964,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-40",
+      "id": "roame-AMERICAN-42",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1921,7 +2010,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-41",
+      "id": "roame-AMERICAN-43",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -1967,7 +2056,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-42",
+      "id": "roame-AMERICAN-44",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2013,7 +2102,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-43",
+      "id": "roame-AMERICAN-45",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2059,7 +2148,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-44",
+      "id": "roame-AMERICAN-46",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2105,7 +2194,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-45",
+      "id": "roame-AMERICAN-47",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2151,7 +2240,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-46",
+      "id": "roame-AMERICAN-48",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2197,7 +2286,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-47",
+      "id": "roame-AMERICAN-49",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2243,7 +2332,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-48",
+      "id": "roame-AMERICAN-50",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2284,7 +2373,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-49",
+      "id": "roame-AMERICAN-51",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2330,7 +2419,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-50",
+      "id": "roame-AMERICAN-52",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2376,7 +2465,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-51",
+      "id": "roame-AMERICAN-53",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2422,7 +2511,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-52",
+      "id": "roame-AMERICAN-54",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2468,7 +2557,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-53",
+      "id": "roame-AMERICAN-55",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2514,7 +2603,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-54",
+      "id": "roame-AMERICAN-56",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2560,7 +2649,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-55",
+      "id": "roame-AMERICAN-57",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2606,7 +2695,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-56",
+      "id": "roame-AMERICAN-58",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2652,7 +2741,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-57",
+      "id": "roame-AMERICAN-59",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2698,7 +2787,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-58",
+      "id": "roame-AMERICAN-60",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2744,7 +2833,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-59",
+      "id": "roame-AMERICAN-61",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2790,7 +2879,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-60",
+      "id": "roame-AMERICAN-62",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2836,7 +2925,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-61",
+      "id": "roame-AMERICAN-63",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2882,7 +2971,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-62",
+      "id": "roame-AMERICAN-64",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2928,7 +3017,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-63",
+      "id": "roame-AMERICAN-65",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -2974,7 +3063,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-64",
+      "id": "roame-AMERICAN-66",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3020,7 +3109,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-65",
+      "id": "roame-AMERICAN-67",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3066,7 +3155,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-66",
+      "id": "roame-AMERICAN-68",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3112,7 +3201,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-67",
+      "id": "roame-AMERICAN-69",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3158,7 +3247,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-68",
+      "id": "roame-AMERICAN-70",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3204,7 +3293,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-69",
+      "id": "roame-AMERICAN-71",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3250,7 +3339,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-70",
+      "id": "roame-AMERICAN-72",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3296,7 +3385,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-71",
+      "id": "roame-AMERICAN-73",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3342,7 +3431,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-72",
+      "id": "roame-AMERICAN-74",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3388,7 +3477,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-73",
+      "id": "roame-AMERICAN-75",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3434,7 +3523,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-74",
+      "id": "roame-AMERICAN-76",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3480,7 +3569,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-75",
+      "id": "roame-AMERICAN-77",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3526,7 +3615,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-76",
+      "id": "roame-AMERICAN-78",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3572,7 +3661,7 @@
       "fareClass": "ECON"
     },
     {
-      "id": "roame-AMERICAN-77",
+      "id": "roame-AMERICAN-79",
       "source": "roame",
       "type": "award",
       "origin": "LAX",
@@ -3613,6 +3702,298 @@
       "fareClass": "ECON"
     },
     {
+      "id": "roame-FLYING_BLUE-80",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AF / AF",
+      "operatingAirlines": [
+        "AF",
+        "AF"
+      ],
+      "flightNumbers": [
+        "23",
+        "662"
+      ],
+      "stops": 1,
+      "durationMinutes": 1220,
+      "departureTime": "2026-04-28T15:15:00-07:00",
+      "arrivalTime": "2026-04-29T22:35:00+04:00",
+      "airports": [
+        "LAX",
+        "CDG",
+        "CDG",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W"
+      ],
+      "points": 64500,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 187.9,
+      "currency": "USD",
+      "cppValue": 0.9,
+      "roameScore": 3995,
+      "availableSeats": 2,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-81",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "604",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1155,
+      "departureTime": "2026-04-28T16:45:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 35000,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 188.7,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 2301,
+      "availableSeats": 9,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-82",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "602",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1330,
+      "departureTime": "2026-04-28T13:50:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 35000,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 188.7,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 2650,
+      "availableSeats": 7,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-83",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / AF / AF",
+      "operatingAirlines": [
+        "KL",
+        "AF",
+        "AF"
+      ],
+      "flightNumbers": [
+        "602",
+        "1341",
+        "662"
+      ],
+      "stops": 2,
+      "durationMinutes": 1305,
+      "departureTime": "2026-04-28T13:50:00-07:00",
+      "arrivalTime": "2026-04-29T22:35:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "CDG",
+        "CDG",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "781",
+        "320",
+        "77W"
+      ],
+      "points": 126500,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 219.5,
+      "currency": "USD",
+      "cppValue": 0.5,
+      "roameScore": 7898,
+      "availableSeats": 5,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "ECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-84",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "AF / AF",
+      "operatingAirlines": [
+        "AF",
+        "AF"
+      ],
+      "flightNumbers": [
+        "23",
+        "662"
+      ],
+      "stops": 1,
+      "durationMinutes": 1220,
+      "departureTime": "2026-04-28T15:15:00-07:00",
+      "arrivalTime": "2026-04-29T22:35:00+04:00",
+      "airports": [
+        "LAX",
+        "CDG",
+        "CDG",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W"
+      ],
+      "points": 388000,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 269.4,
+      "currency": "USD",
+      "cppValue": 0.1,
+      "roameScore": 21424,
+      "availableSeats": 9,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-85",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "604",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1155,
+      "departureTime": "2026-04-28T16:45:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 388000,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 269.4,
+      "currency": "USD",
+      "cppValue": 0.1,
+      "roameScore": 20282,
+      "availableSeats": 7,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "PREMECON"
+    },
+    {
+      "id": "roame-FLYING_BLUE-86",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "KL / KL",
+      "operatingAirlines": [
+        "KL",
+        "KL"
+      ],
+      "flightNumbers": [
+        "602",
+        "427"
+      ],
+      "stops": 1,
+      "durationMinutes": 1330,
+      "departureTime": "2026-04-28T13:50:00-07:00",
+      "arrivalTime": "2026-04-29T23:00:00+04:00",
+      "airports": [
+        "LAX",
+        "AMS",
+        "AMS",
+        "DXB"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "781",
+        "77W"
+      ],
+      "points": 388000,
+      "pointsProgram": "FLYING_BLUE",
+      "cashPrice": null,
+      "taxes": 269.4,
+      "currency": "USD",
+      "cppValue": 0.1,
+      "roameScore": 23355,
+      "availableSeats": 9,
+      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
+      "fareClass": "PREMECON"
+    },
+    {
       "id": "roame-UNITED-0",
       "source": "roame",
       "type": "award",
@@ -3645,7 +4026,7 @@
       "points": 220000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.8,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.8,
       "roameScore": 358,
@@ -3686,7 +4067,7 @@
       "points": 245000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.8,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
       "roameScore": 543,
@@ -3727,7 +4108,7 @@
       "points": 220000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.8,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.8,
       "roameScore": 531,
@@ -3768,7 +4149,7 @@
       "points": 245000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.8,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
       "roameScore": 655,
@@ -3809,7 +4190,7 @@
       "points": 245000,
       "pointsProgram": "UNITED",
       "cashPrice": null,
-      "taxes": 6.8,
+      "taxes": 7,
       "currency": "USD",
       "cppValue": 1.6,
       "roameScore": 449,
@@ -3963,47 +4344,6 @@
       ],
       "flightNumbers": [
         "740",
-        "1018"
-      ],
-      "stops": 1,
-      "durationMinutes": 1085,
-      "departureTime": "2026-04-28T16:20:00-07:00",
-      "arrivalTime": "2026-04-29T21:25:00+04:00",
-      "airports": [
-        "LAX",
-        "DOH",
-        "DOH",
-        "DXB"
-      ],
-      "cabinClass": "business",
-      "equipment": [
-        "351",
-        "359"
-      ],
-      "points": 215000,
-      "pointsProgram": "ALASKA",
-      "cashPrice": null,
-      "taxes": 56,
-      "currency": "USD",
-      "cppValue": 1.8,
-      "roameScore": 351,
-      "availableSeats": 1,
-      "bookingUrl": "https://www.alaskaair.com/booking/flights",
-      "fareClass": "BUSINESSMIXED"
-    },
-    {
-      "id": "roame-ALASKA-9",
-      "source": "roame",
-      "type": "award",
-      "origin": "LAX",
-      "destination": "DXB",
-      "airline": "QR / QR",
-      "operatingAirlines": [
-        "QR",
-        "QR"
-      ],
-      "flightNumbers": [
-        "740",
         "1014"
       ],
       "stops": 1,
@@ -4029,6 +4369,47 @@
       "cppValue": 1.8,
       "roameScore": 351,
       "availableSeats": 2,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "BUSINESSMIXED"
+    },
+    {
+      "id": "roame-ALASKA-9",
+      "source": "roame",
+      "type": "award",
+      "origin": "LAX",
+      "destination": "DXB",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "740",
+        "1018"
+      ],
+      "stops": 1,
+      "durationMinutes": 1085,
+      "departureTime": "2026-04-28T16:20:00-07:00",
+      "arrivalTime": "2026-04-29T21:25:00+04:00",
+      "airports": [
+        "LAX",
+        "DOH",
+        "DOH",
+        "DXB"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "351",
+        "359"
+      ],
+      "points": 215000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 56,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 351,
+      "availableSeats": 1,
       "bookingUrl": "https://www.alaskaair.com/booking/flights",
       "fareClass": "BUSINESSMIXED"
     },
@@ -4286,129 +4667,6 @@
       "roameScore": 577,
       "availableSeats": 1,
       "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
-      "fareClass": "BUSINESS"
-    },
-    {
-      "id": "roame-FLYING_BLUE-16",
-      "source": "roame",
-      "type": "award",
-      "origin": "LAX",
-      "destination": "DXB",
-      "airline": "AF / AF",
-      "operatingAirlines": [
-        "AF",
-        "AF"
-      ],
-      "flightNumbers": [
-        "23",
-        "662"
-      ],
-      "stops": 1,
-      "durationMinutes": 1220,
-      "departureTime": "2026-04-28T15:15:00-07:00",
-      "arrivalTime": "2026-04-29T22:35:00+04:00",
-      "airports": [
-        "LAX",
-        "CDG",
-        "CDG",
-        "DXB"
-      ],
-      "cabinClass": "business",
-      "equipment": [
-        "77W",
-        "77W"
-      ],
-      "points": 432500,
-      "pointsProgram": "FLYING_BLUE",
-      "cashPrice": null,
-      "taxes": 397.9,
-      "currency": "USD",
-      "cppValue": 0.8,
-      "roameScore": 805,
-      "availableSeats": 4,
-      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
-      "fareClass": "BUSINESS"
-    },
-    {
-      "id": "roame-FLYING_BLUE-17",
-      "source": "roame",
-      "type": "award",
-      "origin": "LAX",
-      "destination": "DXB",
-      "airline": "KL / KL",
-      "operatingAirlines": [
-        "KL",
-        "KL"
-      ],
-      "flightNumbers": [
-        "604",
-        "427"
-      ],
-      "stops": 1,
-      "durationMinutes": 1155,
-      "departureTime": "2026-04-28T16:45:00-07:00",
-      "arrivalTime": "2026-04-29T23:00:00+04:00",
-      "airports": [
-        "LAX",
-        "AMS",
-        "AMS",
-        "DXB"
-      ],
-      "cabinClass": "business",
-      "equipment": [
-        "781",
-        "77W"
-      ],
-      "points": 432500,
-      "pointsProgram": "FLYING_BLUE",
-      "cashPrice": null,
-      "taxes": 397.9,
-      "currency": "USD",
-      "cppValue": 0.8,
-      "roameScore": 762,
-      "availableSeats": 2,
-      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
-      "fareClass": "BUSINESS"
-    },
-    {
-      "id": "roame-FLYING_BLUE-18",
-      "source": "roame",
-      "type": "award",
-      "origin": "LAX",
-      "destination": "DXB",
-      "airline": "KL / KL",
-      "operatingAirlines": [
-        "KL",
-        "KL"
-      ],
-      "flightNumbers": [
-        "602",
-        "427"
-      ],
-      "stops": 1,
-      "durationMinutes": 1330,
-      "departureTime": "2026-04-28T13:50:00-07:00",
-      "arrivalTime": "2026-04-29T23:00:00+04:00",
-      "airports": [
-        "LAX",
-        "AMS",
-        "AMS",
-        "DXB"
-      ],
-      "cabinClass": "business",
-      "equipment": [
-        "781",
-        "77W"
-      ],
-      "points": 432500,
-      "pointsProgram": "FLYING_BLUE",
-      "cashPrice": null,
-      "taxes": 397.9,
-      "currency": "USD",
-      "cppValue": 0.8,
-      "roameScore": 1000,
-      "availableSeats": 2,
-      "bookingUrl": "https://wwws.airfrance.us/search/open-dates",
       "fareClass": "BUSINESS"
     }
   ],
