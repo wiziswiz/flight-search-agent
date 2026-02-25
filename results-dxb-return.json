@@ -1,0 +1,5503 @@
+{
+  "meta": {
+    "origin": "DXB",
+    "destination": "LAX",
+    "departureDate": "2026-05-03",
+    "returnDate": null,
+    "searchedAt": "2026-02-17T19:24:57.025Z",
+    "sources": [
+      "roame",
+      "google",
+      "hidden-city"
+    ],
+    "completionPct": {
+      "hidden-city": 0,
+      "google": 100,
+      "roame": 64
+    }
+  },
+  "balances": [
+    {
+      "program": "Marriott Bonvoy",
+      "programKey": "marriott",
+      "balance": 984722,
+      "displayBalance": "984,722"
+    },
+    {
+      "program": "Air France (Flying Blue)",
+      "programKey": "FLYING_BLUE",
+      "balance": 851165,
+      "displayBalance": "851,165"
+    },
+    {
+      "program": "Hilton (Honors)",
+      "programKey": "hilton",
+      "balance": 561287,
+      "displayBalance": "561,287"
+    },
+    {
+      "program": "Air Canada (Aeroplan)",
+      "programKey": "AEROPLAN",
+      "balance": 475663,
+      "displayBalance": "475,663"
+    },
+    {
+      "program": "Marriott Bonvoy",
+      "programKey": "marriott",
+      "balance": 407538,
+      "displayBalance": "407,538"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 387429,
+      "displayBalance": "387,429"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 361315,
+      "displayBalance": "361,315"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 348211,
+      "displayBalance": "348,211"
+    },
+    {
+      "program": "Chase (Ultimate Rewards)",
+      "programKey": "chase-ur",
+      "balance": 218340,
+      "displayBalance": "218,340"
+    },
+    {
+      "program": "Hilton (Honors)",
+      "programKey": "hilton",
+      "balance": 172955,
+      "displayBalance": "172,955"
+    },
+    {
+      "program": "Delta Air Lines (SkyMiles)",
+      "programKey": "DELTA",
+      "balance": 155954,
+      "displayBalance": "155,954"
+    },
+    {
+      "program": "Southwest Airlines (Rapid Rewards)",
+      "programKey": "southwest",
+      "balance": 144000,
+      "displayBalance": "144,000"
+    },
+    {
+      "program": "Delta Air Lines (SkyMiles)",
+      "programKey": "DELTA",
+      "balance": 137476,
+      "displayBalance": "137,476"
+    },
+    {
+      "program": "British Airways (Club)",
+      "programKey": "BRITISH_AIRWAYS",
+      "balance": 71449,
+      "displayBalance": "71,449"
+    },
+    {
+      "program": "United Airlines (Mileage Plus)",
+      "programKey": "UNITED",
+      "balance": 70000,
+      "displayBalance": "70,000"
+    },
+    {
+      "program": "Virgin Atlantic (Flying Club)",
+      "programKey": "VIRGIN_ATLANTIC",
+      "balance": 60728,
+      "displayBalance": "60,728"
+    },
+    {
+      "program": "Bank Of America",
+      "programKey": "bank-of-america",
+      "balance": 59449,
+      "displayBalance": "59,449"
+    },
+    {
+      "program": "Bilt Rewards",
+      "programKey": "bilt",
+      "balance": 59390,
+      "displayBalance": "59,390"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 47660,
+      "displayBalance": "47,660"
+    },
+    {
+      "program": "JetBlue Airways (TrueBlue)",
+      "programKey": "jetblue-airways-(trueblue)",
+      "balance": 44344,
+      "displayBalance": "44,344"
+    },
+    {
+      "program": "PenFed (Rewards)",
+      "programKey": "penfed-(rewards)",
+      "balance": 41094,
+      "displayBalance": "41,094"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 30025,
+      "displayBalance": "30,025"
+    },
+    {
+      "program": "Hyatt (World of Hyatt)",
+      "programKey": "hyatt-(world-of-hyatt)",
+      "balance": 22560,
+      "displayBalance": "22,560"
+    },
+    {
+      "program": "Hyatt (World of Hyatt)",
+      "programKey": "hyatt-(world-of-hyatt)",
+      "balance": 22388,
+      "displayBalance": "22,388"
+    },
+    {
+      "program": "HSBC Rewards",
+      "programKey": "hsbc-rewards",
+      "balance": 11371,
+      "displayBalance": "11,371"
+    },
+    {
+      "program": "Alaska Airlines (Atmos Rewards)",
+      "programKey": "ALASKA",
+      "balance": 10000,
+      "displayBalance": "10,000"
+    },
+    {
+      "program": "JetBlue Airways (TrueBlue)",
+      "programKey": "jetblue-airways-(trueblue)",
+      "balance": 4824,
+      "displayBalance": "4,824"
+    },
+    {
+      "program": "Hertz (Gold Plus Rewards)",
+      "programKey": "hertz-(gold-plus-rewards)",
+      "balance": 2452,
+      "displayBalance": "2,452"
+    },
+    {
+      "program": "IHG Hotels &amp; Resorts (One Rewards)",
+      "programKey": "ihg-hotels-&amp;-resorts-(one-rewards)",
+      "balance": 1220,
+      "displayBalance": "1,220"
+    },
+    {
+      "program": "Bilt Rewards",
+      "programKey": "bilt",
+      "balance": 901,
+      "displayBalance": "901"
+    },
+    {
+      "program": "Qantas (Frequent Flyer)",
+      "programKey": "QANTAS",
+      "balance": 711,
+      "displayBalance": "711"
+    },
+    {
+      "program": "Singapore Airlines (KrisFlyer)",
+      "programKey": "singapore-airlines-(krisflyer)",
+      "balance": 371,
+      "displayBalance": "371"
+    },
+    {
+      "program": "Southwest Airlines (Rapid Rewards)",
+      "programKey": "southwest",
+      "balance": 250,
+      "displayBalance": "250"
+    },
+    {
+      "program": "Hotels.com",
+      "programKey": "hotels.com",
+      "balance": 89.61,
+      "displayBalance": "89.61"
+    }
+  ],
+  "flights": [
+    {
+      "id": "roame-ALASKA-14",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1003",
+        "739"
+      ],
+      "stops": 1,
+      "durationMinutes": 1150,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T14:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 104,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 2425,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 47,660 Alaska Airlines (Atmos Rewards) (need 42,500)",
+      "valueScore": 68
+    },
+    {
+      "id": "roame-ALASKA-15",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1015",
+        "739"
+      ],
+      "stops": 1,
+      "durationMinutes": 1560,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T14:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 104,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 3289,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 47,660 Alaska Airlines (Atmos Rewards) (need 42,500)",
+      "valueScore": 68
+    },
+    {
+      "id": "roame-ALASKA-16",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1019",
+        "739"
+      ],
+      "stops": 1,
+      "durationMinutes": 1535,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T14:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 104,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 3237,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 47,660 Alaska Airlines (Atmos Rewards) (need 42,500)",
+      "valueScore": 68
+    },
+    {
+      "id": "roame-ALASKA-17",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1007",
+        "739"
+      ],
+      "stops": 1,
+      "durationMinutes": 2235,
+      "departureTime": "2026-05-03T11:45:00+04:00",
+      "arrivalTime": "2026-05-04T14:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 107,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 4729,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 47,660 Alaska Airlines (Atmos Rewards) (need 42,500)",
+      "valueScore": 68
+    },
+    {
+      "id": "roame-ALASKA-18",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR",
+      "operatingAirlines": [
+        "QR",
+        "QR"
+      ],
+      "flightNumbers": [
+        "1023",
+        "739"
+      ],
+      "stops": 1,
+      "durationMinutes": 2145,
+      "departureTime": "2026-05-03T13:15:00+04:00",
+      "arrivalTime": "2026-05-04T14:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351"
+      ],
+      "points": 42500,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 107,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 4539,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 47,660 Alaska Airlines (Atmos Rewards) (need 42,500)",
+      "valueScore": 68
+    },
+    {
+      "id": "roame-AMERICAN-30",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "RJ / RJ / AA",
+      "operatingAirlines": [
+        "RJ",
+        "RJ",
+        "AA"
+      ],
+      "flightNumbers": [
+        "613",
+        "111",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1490,
+      "departureTime": "2026-05-03T06:30:00+04:00",
+      "arrivalTime": "2026-05-03T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "AMM",
+        "AMM",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "789",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 136,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 4395,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-31",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "701",
+        "306"
+      ],
+      "stops": 2,
+      "durationMinutes": 1496,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T19:46:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "JFK",
+        "JFK",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "772"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4268,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-32",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "731",
+        "2264"
+      ],
+      "stops": 2,
+      "durationMinutes": 1510,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T13:35:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4308,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-33",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "7",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1530,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "359",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 134,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 4506,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-36",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "731",
+        "2264"
+      ],
+      "stops": 2,
+      "durationMinutes": 1535,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T13:35:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4379,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-37",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "731",
+        "3334"
+      ],
+      "stops": 2,
+      "durationMinutes": 1555,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T14:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4436,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-38",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "731",
+        "3334"
+      ],
+      "stops": 2,
+      "durationMinutes": 1580,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T14:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4508,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-39",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "RJ / RJ / AA",
+      "operatingAirlines": [
+        "RJ",
+        "RJ",
+        "AA"
+      ],
+      "flightNumbers": [
+        "613",
+        "263",
+        "2608"
+      ],
+      "stops": 2,
+      "durationMinutes": 1590,
+      "departureTime": "2026-05-03T06:30:00+04:00",
+      "arrivalTime": "2026-05-03T22:00:00-07:00",
+      "airports": [
+        "DXB",
+        "AMM",
+        "AMM",
+        "ORD",
+        "ORD",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "788",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 72,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4437,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 2,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-40",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "725",
+        "2608"
+      ],
+      "stops": 2,
+      "durationMinutes": 1630,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T22:00:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "ORD",
+        "ORD",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4650,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-41",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "731",
+        "1203"
+      ],
+      "stops": 2,
+      "durationMinutes": 1635,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T15:40:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4665,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-42",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "731",
+        "1203"
+      ],
+      "stops": 2,
+      "durationMinutes": 1660,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T15:40:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4736,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-43",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "RJ / RJ / AA",
+      "operatingAirlines": [
+        "RJ",
+        "RJ",
+        "AA"
+      ],
+      "flightNumbers": [
+        "613",
+        "263",
+        "3194"
+      ],
+      "stops": 2,
+      "durationMinutes": 1700,
+      "departureTime": "2026-05-03T06:30:00+04:00",
+      "arrivalTime": "2026-05-03T23:50:00-07:00",
+      "airports": [
+        "DXB",
+        "AMM",
+        "AMM",
+        "ORD",
+        "ORD",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "32Q",
+        "788",
+        "7M8"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 72,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4744,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 2,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-44",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "725",
+        "3194"
+      ],
+      "stops": 2,
+      "durationMinutes": 1740,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T23:50:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "ORD",
+        "ORD",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "7M8"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 4964,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-45",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "703",
+        "3"
+      ],
+      "stops": 2,
+      "durationMinutes": 1763,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T17:48:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "JFK",
+        "JFK",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "77W",
+        "32Q"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5030,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-46",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "701",
+        "300"
+      ],
+      "stops": 2,
+      "durationMinutes": 1778,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-04T00:28:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "JFK",
+        "JFK",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "32B"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5073,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-47",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "703",
+        "3"
+      ],
+      "stops": 2,
+      "durationMinutes": 1788,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T17:48:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "JFK",
+        "JFK",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "32Q"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5101,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-49",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "731",
+        "1643"
+      ],
+      "stops": 2,
+      "durationMinutes": 1797,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T18:22:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5127,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-50",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "731",
+        "1643"
+      ],
+      "stops": 2,
+      "durationMinutes": 1822,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T18:22:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5198,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-51",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "731",
+        "1268"
+      ],
+      "stops": 2,
+      "durationMinutes": 1849,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T19:14:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "32Q"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5275,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-52",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1019",
+        "737",
+        "1494"
+      ],
+      "stops": 2,
+      "durationMinutes": 1863,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T19:28:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "73H"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5315,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-53",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "731",
+        "1268"
+      ],
+      "stops": 2,
+      "durationMinutes": 1874,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T19:14:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "DFW",
+        "DFW",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "32Q"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5346,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-54",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1015",
+        "737",
+        "1494"
+      ],
+      "stops": 2,
+      "durationMinutes": 1888,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T19:28:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "73H"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5386,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-55",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "109",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1915,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 134,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 5640,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-57",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1015",
+        "109",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1940,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 134,
+      "currency": "USD",
+      "cppValue": 1.7,
+      "roameScore": 5713,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.8,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-58",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1019",
+        "737",
+        "1314"
+      ],
+      "stops": 2,
+      "durationMinutes": 1969,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T21:14:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "351",
+        "73H"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5618,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-59",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1015",
+        "737",
+        "1314"
+      ],
+      "stops": 2,
+      "durationMinutes": 1994,
+      "departureTime": "2026-05-03T23:00:00+04:00",
+      "arrivalTime": "2026-05-04T21:14:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "73H"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 97,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5689,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.9,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-AMERICAN-60",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "RJ / RJ / AA",
+      "operatingAirlines": [
+        "RJ",
+        "RJ",
+        "AA"
+      ],
+      "flightNumbers": [
+        "615",
+        "263",
+        "2608"
+      ],
+      "stops": 2,
+      "durationMinutes": 2110,
+      "departureTime": "2026-05-03T21:50:00+04:00",
+      "arrivalTime": "2026-05-04T22:00:00-07:00",
+      "airports": [
+        "DXB",
+        "AMM",
+        "AMM",
+        "ORD",
+        "ORD",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "787",
+        "788",
+        "321"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 72,
+      "currency": "USD",
+      "cppValue": 1.8,
+      "roameScore": 5889,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 2,
+      "cppRating": "great",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 64
+    },
+    {
+      "id": "roame-UNITED-0",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1321"
+      ],
+      "stops": 1,
+      "durationMinutes": 1442,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T14:57:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 3262,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-1",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2191"
+      ],
+      "stops": 1,
+      "durationMinutes": 1577,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T17:12:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 3568,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-2",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2238"
+      ],
+      "stops": 1,
+      "durationMinutes": 1676,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T18:51:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 3792,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-3",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2641"
+      ],
+      "stops": 1,
+      "durationMinutes": 1798,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T20:53:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 4068,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-4",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "353"
+      ],
+      "stops": 1,
+      "durationMinutes": 1844,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:39:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 4172,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-5",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "712"
+      ],
+      "stops": 1,
+      "durationMinutes": 1945,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T23:20:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 48500,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.5,
+      "roameScore": 4400,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.6,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 48,500)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-UNITED-6",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1967"
+      ],
+      "stops": 1,
+      "durationMinutes": 1820,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:15:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "LGA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "7M8"
+      ],
+      "points": 54200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 1.4,
+      "roameScore": 4569,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "ECON",
+      "realCpp": 1.5,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": true,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Have 70,000 United Airlines (Mileage Plus) (need 54,200)",
+      "valueScore": 60
+    },
+    {
+      "id": "roame-AMERICAN-34",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AA",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "327",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1530,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LGW",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "789",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 161,
+      "currency": "USD",
+      "cppValue": 1.6,
+      "roameScore": 4609,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.7,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 56
+    },
+    {
+      "id": "roame-AMERICAN-35",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / BA / AA",
+      "operatingAirlines": [
+        "QR",
+        "BA",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "122",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1530,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 270,
+      "currency": "USD",
+      "cppValue": 1.3,
+      "roameScore": 5023,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.5,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 56
+    },
+    {
+      "id": "roame-AMERICAN-56",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / BA / AA",
+      "operatingAirlines": [
+        "QR",
+        "BA",
+        "AA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "122",
+        "137"
+      ],
+      "stops": 2,
+      "durationMinutes": 1915,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T20:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "777",
+        "77W"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 270,
+      "currency": "USD",
+      "cppValue": 1.3,
+      "roameScore": 6288,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 1.5,
+      "cppRating": "good",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 56
+    },
+    {
+      "id": "roame-UNITED-6",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1967"
+      ],
+      "stops": 1,
+      "durationMinutes": 1820,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:15:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "LGA",
+        "LAX"
+      ],
+      "cabinClass": "first",
+      "equipment": [
+        "77W",
+        "7M8"
+      ],
+      "points": 295000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 2.7,
+      "roameScore": 576,
+      "availableSeats": 7,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "FIRSTMIXED",
+      "realCpp": 2.7,
+      "cppRating": "fair",
+      "cashComparable": 8000,
+      "cashSource": "estimated",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 295,000 Chase UR → 295,000 miles (instant)",
+      "valueScore": 52
+    },
+    {
+      "id": "google-0",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "KLM",
+      "operatingAirlines": [
+        "KLM"
+      ],
+      "flightNumbers": [
+        "KL 428",
+        "KL 601"
+      ],
+      "stops": 1,
+      "durationMinutes": 1310,
+      "departureTime": "2026-05-03 01:00",
+      "arrivalTime": "2026-05-03 11:50",
+      "airports": [
+        "DXB",
+        "AMS",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 787-10"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 672,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3RMVERReU9IeExURFl3TVJvTENLaU1CQkFDR2dOVlUwUTRISENvakFRPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkFNUyIsbnVsbCwiS0wiLCI0MjgiXSxbIkFNUyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIktMIiwiNjAxIl1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$672 cash",
+      "valueScore": 50
+    },
+    {
+      "id": "google-14",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / Condor / Alaska",
+      "operatingAirlines": [
+        "Emirates",
+        "Condor",
+        "Alaska"
+      ],
+      "flightNumbers": [
+        "EK 43",
+        "DE 2032",
+        "AS 1480"
+      ],
+      "stops": 2,
+      "durationMinutes": 1761,
+      "departureTime": "2026-05-03 03:45",
+      "arrivalTime": "2026-05-03 22:06",
+      "airports": [
+        "DXB",
+        "FRA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Boeing 777",
+        "Airbus A330-900neo",
+        "Boeing 737"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1336,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFaEpGU3pRemZFUkZNakF6TW54QlV6RTBPREFhQ3dpbmt3Z1FBaG9EVlZORU9CeHdwNU1JIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiRlJBIixudWxsLCJFSyIsIjQzIl0sWyJGUkEiLCIyMDI2LTA1LTAzIiwiU0VBIixudWxsLCJERSIsIjIwMzIiXSxbIlNFQSIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkFTIiwiMTQ4MCJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,336 cash",
+      "valueScore": 50
+    },
+    {
+      "id": "google-15",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / Condor / Alaska",
+      "operatingAirlines": [
+        "Emirates",
+        "Condor",
+        "Alaska"
+      ],
+      "flightNumbers": [
+        "EK 43",
+        "DE 2096",
+        "AS 1314"
+      ],
+      "stops": 2,
+      "durationMinutes": 1709,
+      "departureTime": "2026-05-03 03:45",
+      "arrivalTime": "2026-05-03 21:14",
+      "airports": [
+        "DXB",
+        "FRA",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Boeing 777",
+        "Airbus A330-900neo",
+        "Boeing 737"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1395,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFaEpGU3pRemZFUkZNakE1Tm54QlV6RXpNVFFhQ3dpN3dRZ1FBaG9EVlZORU9CeHd1OEVJIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiRlJBIixudWxsLCJFSyIsIjQzIl0sWyJGUkEiLCIyMDI2LTA1LTAzIiwiU0ZPIixudWxsLCJERSIsIjIwOTYiXSxbIlNGTyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkFTIiwiMTMxNCJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,395 cash",
+      "valueScore": 45
+    },
+    {
+      "id": "google-4",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "United",
+      "operatingAirlines": [
+        "United"
+      ],
+      "flightNumbers": [
+        "UA 163",
+        "UA 1321"
+      ],
+      "stops": 1,
+      "durationMinutes": 1442,
+      "departureTime": "2026-05-03 01:55",
+      "arrivalTime": "2026-05-03 14:57",
+      "airports": [
+        "DXB",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 797,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3hWUVRFMk0zeFZRVEV6TWpFYUN3aVU3Z1FRQWhvRFZWTkVPQnh3bE80RSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkVXUiIsbnVsbCwiVUEiLCIxNjMiXSxbIkVXUiIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIlVBIiwiMTMyMSJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$797 cash",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-7",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1321"
+      ],
+      "stops": 1,
+      "durationMinutes": 1442,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T14:57:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 11843,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-8",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2191"
+      ],
+      "stops": 1,
+      "durationMinutes": 1577,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T17:12:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 12952,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-9",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2238"
+      ],
+      "stops": 1,
+      "durationMinutes": 1676,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T18:51:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 200000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 14845,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 200,000 Chase UR → 200,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-10",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2641"
+      ],
+      "stops": 1,
+      "durationMinutes": 1798,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T20:53:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 14767,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-11",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "353"
+      ],
+      "stops": 1,
+      "durationMinutes": 1844,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:39:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 15145,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-12",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "712"
+      ],
+      "stops": 1,
+      "durationMinutes": 1945,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T23:20:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 15975,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-13",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1967"
+      ],
+      "stops": 1,
+      "durationMinutes": 1820,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:15:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "LGA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "7M8"
+      ],
+      "points": 185200,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60.8,
+      "currency": "USD",
+      "cppValue": 0.4,
+      "roameScore": 14948,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "PREMECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 185,200 Chase UR → 185,200 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-0",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "1321"
+      ],
+      "stops": 1,
+      "durationMinutes": 1442,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T14:57:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 395000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 843,
+      "availableSeats": 4,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.5,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 387,429 Chase UR → 395,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-1",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2191"
+      ],
+      "stops": 1,
+      "durationMinutes": 1577,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T17:12:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 395000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 1000,
+      "availableSeats": 3,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.5,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 387,429 Chase UR → 395,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-2",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2238"
+      ],
+      "stops": 1,
+      "durationMinutes": 1676,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T18:51:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 395000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 1147,
+      "availableSeats": 7,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.5,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 387,429 Chase UR → 395,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-3",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "2641"
+      ],
+      "stops": 1,
+      "durationMinutes": 1798,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T20:53:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 395000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 1281,
+      "availableSeats": 3,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.5,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 387,429 Chase UR → 395,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-4",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "353"
+      ],
+      "stops": 1,
+      "durationMinutes": 1844,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T21:39:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "777"
+      ],
+      "points": 395000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1,
+      "roameScore": 1370,
+      "availableSeats": 3,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.5,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 387,429 Chase UR → 395,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "roame-UNITED-5",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "UA / UA",
+      "operatingAirlines": [
+        "UA",
+        "UA"
+      ],
+      "flightNumbers": [
+        "163",
+        "712"
+      ],
+      "stops": 1,
+      "durationMinutes": 1945,
+      "departureTime": "2026-05-03T01:55:00+04:00",
+      "arrivalTime": "2026-05-03T23:20:00-07:00",
+      "airports": [
+        "DXB",
+        "EWR",
+        "EWR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "77W",
+        "752"
+      ],
+      "points": 295000,
+      "pointsProgram": "UNITED",
+      "cashPrice": null,
+      "taxes": 60,
+      "currency": "USD",
+      "cppValue": 1.3,
+      "roameScore": 1131,
+      "availableSeats": 4,
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "fareClass": "BUSINESS",
+      "realCpp": 0.7,
+      "cppRating": "poor",
+      "cashComparable": 2138,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "UNITED",
+        "sourceName": "United Airlines (Mileage Plus)",
+        "sourceBalance": 70000,
+        "pointsToTransfer": 0,
+        "milesReceived": 70000,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 295,000 Chase UR → 295,000 miles (instant)",
+      "valueScore": 44
+    },
+    {
+      "id": "google-16",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / Condor / Alaska",
+      "operatingAirlines": [
+        "Emirates",
+        "Condor",
+        "Alaska"
+      ],
+      "flightNumbers": [
+        "EK 43",
+        "DE 2096",
+        "AS 1494"
+      ],
+      "stops": 2,
+      "durationMinutes": 1603,
+      "departureTime": "2026-05-03 03:45",
+      "arrivalTime": "2026-05-03 19:28",
+      "airports": [
+        "DXB",
+        "FRA",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Boeing 777",
+        "Airbus A330-900neo",
+        "Boeing 737"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1442,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFaEpGU3pRemZFUkZNakE1Tm54QlV6RTBPVFFhQ3dpaDVnZ1FBaG9EVlZORU9CeHdvZVlJIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiRlJBIixudWxsLCJFSyIsIjQzIl0sWyJGUkEiLCIyMDI2LTA1LTAzIiwiU0ZPIixudWxsLCJERSIsIjIwOTYiXSxbIlNGTyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkFTIiwiMTQ5NCJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,442 cash",
+      "valueScore": 41
+    },
+    {
+      "id": "roame-ALASKA-19",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "737",
+        "1314"
+      ],
+      "stops": 2,
+      "durationMinutes": 1584,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T21:14:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "73H"
+      ],
+      "points": 120000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 8708,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.6,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 360,361 Marriott Bonvoy → 120,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-20",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "737",
+        "2200"
+      ],
+      "stops": 2,
+      "durationMinutes": 1645,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T22:15:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "E75"
+      ],
+      "points": 120000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 9043,
+      "availableSeats": 8,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.6,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 360,361 Marriott Bonvoy → 120,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-21",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "719",
+        "1300"
+      ],
+      "stops": 2,
+      "durationMinutes": 1371,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T17:41:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SEA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "73H"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 12311,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-22",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "737",
+        "1494"
+      ],
+      "stops": 2,
+      "durationMinutes": 1478,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T19:28:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SFO",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "351",
+        "73H"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 13272,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-23",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "719",
+        "1411"
+      ],
+      "stops": 2,
+      "durationMinutes": 1509,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T19:59:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SEA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "73J"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 13550,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-24",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "719",
+        "1480"
+      ],
+      "stops": 2,
+      "durationMinutes": 1636,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T22:06:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SEA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "73J"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 14691,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-25",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "719",
+        "1338"
+      ],
+      "stops": 2,
+      "durationMinutes": 1692,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T23:02:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SEA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "7M8"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 15194,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-ALASKA-26",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / QR / AS",
+      "operatingAirlines": [
+        "QR",
+        "QR",
+        "AS"
+      ],
+      "flightNumbers": [
+        "1003",
+        "719",
+        "1390"
+      ],
+      "stops": 2,
+      "durationMinutes": 1748,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T23:58:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "SEA",
+        "SEA",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "77W",
+        "73J"
+      ],
+      "points": 200000,
+      "pointsProgram": "ALASKA",
+      "cashPrice": null,
+      "taxes": 110,
+      "currency": "USD",
+      "cppValue": 0.3,
+      "roameScore": 15697,
+      "availableSeats": 9,
+      "bookingUrl": "https://www.alaskaair.com/booking/flights",
+      "fareClass": "ECON",
+      "realCpp": 0.4,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "ALASKA",
+        "sourceName": "Alaska Airlines (Atmos Rewards)",
+        "sourceBalance": 47660,
+        "pointsToTransfer": 0,
+        "milesReceived": 47660,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 600,601 Marriott Bonvoy → 200,000 miles (3-5 days)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-AMERICAN-29",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / BA / BA",
+      "operatingAirlines": [
+        "QR",
+        "BA",
+        "BA"
+      ],
+      "flightNumbers": [
+        "1003",
+        "122",
+        "269"
+      ],
+      "stops": 2,
+      "durationMinutes": 1410,
+      "departureTime": "2026-05-03T05:50:00+04:00",
+      "arrivalTime": "2026-05-03T18:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "77W",
+        "777",
+        "388"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 562,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 5654,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 0.7,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 40
+    },
+    {
+      "id": "roame-AMERICAN-48",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "QR / BA / BA",
+      "operatingAirlines": [
+        "QR",
+        "BA",
+        "BA"
+      ],
+      "flightNumbers": [
+        "1019",
+        "122",
+        "269"
+      ],
+      "stops": 2,
+      "durationMinutes": 1795,
+      "departureTime": "2026-05-03T23:25:00+04:00",
+      "arrivalTime": "2026-05-04T18:20:00-07:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "DOH",
+        "LHR",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "359",
+        "777",
+        "388"
+      ],
+      "points": 40000,
+      "pointsProgram": "AMERICAN",
+      "cashPrice": null,
+      "taxes": 562,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 7197,
+      "availableSeats": 2,
+      "bookingUrl": "https://www.aa.com/booking/find-flights",
+      "fareClass": "ECON",
+      "realCpp": 0.7,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "bilt",
+        "sourceName": "Bilt Rewards",
+        "sourceBalance": 59390,
+        "pointsToTransfer": 40000,
+        "milesReceived": 40000,
+        "ratio": 1,
+        "transferTime": "instant",
+        "covers": true
+      },
+      "canAfford": true,
+      "affordDetails": "Transfer 40,000 Bilt Rewards → 40,000 miles (instant)",
+      "valueScore": 40
+    },
+    {
+      "id": "google-5",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "British Airways",
+      "operatingAirlines": [
+        "British Airways"
+      ],
+      "flightNumbers": [
+        "BA 106",
+        "BA 283"
+      ],
+      "stops": 1,
+      "durationMinutes": 1395,
+      "departureTime": "2026-05-03 01:30",
+      "arrivalTime": "2026-05-03 13:45",
+      "airports": [
+        "DXB",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 846,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3RDUVRFd05ueENRVEk0TXhvTENMaVVCUkFDR2dOVlUwUTRISEM0bEFVPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkxIUiIsbnVsbCwiQkEiLCIxMDYiXSxbIkxIUiIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkJBIiwiMjgzIl1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$846 cash",
+      "valueScore": 39
+    },
+    {
+      "id": "google-9",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Cathay Pacific",
+      "operatingAirlines": [
+        "Cathay Pacific"
+      ],
+      "flightNumbers": [
+        "CX 738",
+        "CX 884"
+      ],
+      "stops": 1,
+      "durationMinutes": 1375,
+      "departureTime": "2026-05-03 22:50",
+      "arrivalTime": "2026-05-04 10:45",
+      "airports": [
+        "DXB",
+        "HKG",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1486,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3REV0Rjek9IeERXRGc0TkJvTENLV0lDUkFDR2dOVlUwUTRISENsaUFrPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkhLRyIsbnVsbCwiQ1giLCI3MzgiXSxbIkhLRyIsIjIwMjYtMDUtMDQiLCJMQVgiLG51bGwsIkNYIiwiODg0Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,486 cash",
+      "valueScore": 36
+    },
+    {
+      "id": "roame-QANTAS-27",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "EK / QF",
+      "operatingAirlines": [
+        "EK",
+        "QF"
+      ],
+      "flightNumbers": [
+        "406",
+        "93"
+      ],
+      "stops": 1,
+      "durationMinutes": 1920,
+      "departureTime": "2026-05-03T10:05:00+04:00",
+      "arrivalTime": "2026-05-04T07:05:00-07:00",
+      "airports": [
+        "DXB",
+        "MEL",
+        "MEL",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 96400,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 270.2,
+      "currency": "USD",
+      "cppValue": 0.5,
+      "roameScore": 9347,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON",
+      "realCpp": 0.6,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "QANTAS",
+        "sourceName": "Qantas (Frequent Flyer)",
+        "sourceBalance": 711,
+        "pointsToTransfer": 0,
+        "milesReceived": 711,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": false,
+      "affordDetails": "Only 711 available, need 96,400",
+      "valueScore": 34
+    },
+    {
+      "id": "roame-QANTAS-28",
+      "source": "roame",
+      "type": "award",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "EK / BA",
+      "operatingAirlines": [
+        "EK",
+        "BA"
+      ],
+      "flightNumbers": [
+        "11",
+        "269"
+      ],
+      "stops": 1,
+      "durationMinutes": 1595,
+      "departureTime": "2026-05-03T02:45:00+04:00",
+      "arrivalTime": "2026-05-03T18:20:00-07:00",
+      "airports": [
+        "DXB",
+        "LGW",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "",
+        ""
+      ],
+      "points": 66800,
+      "pointsProgram": "QANTAS",
+      "cashPrice": null,
+      "taxes": 417.7,
+      "currency": "USD",
+      "cppValue": 0.6,
+      "roameScore": 6295,
+      "availableSeats": 1,
+      "bookingUrl": "https://www.qantas.com/au/en/book-a-trip/flights.html",
+      "fareClass": "ECON",
+      "realCpp": 0.7,
+      "cppRating": "poor",
+      "cashComparable": 860,
+      "cashSource": "same-cabin",
+      "sweetSpotMatch": null,
+      "fundingPath": {
+        "source": "QANTAS",
+        "sourceName": "Qantas (Frequent Flyer)",
+        "sourceBalance": 711,
+        "pointsToTransfer": 0,
+        "milesReceived": 711,
+        "ratio": 1,
+        "transferTime": "already have",
+        "covers": false,
+        "notes": "Direct balance"
+      },
+      "canAfford": false,
+      "affordDetails": "Only 711 available, need 66,800",
+      "valueScore": 34
+    },
+    {
+      "id": "google-6",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / Virgin Atlantic",
+      "operatingAirlines": [
+        "Emirates",
+        "Virgin Atlantic"
+      ],
+      "flightNumbers": [
+        "EK 31",
+        "VS 23"
+      ],
+      "stops": 1,
+      "durationMinutes": 1260,
+      "departureTime": "2026-05-03 11:25",
+      "arrivalTime": "2026-05-03 21:25",
+      "airports": [
+        "DXB",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Airbus A380",
+        "Boeing 787"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 873,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ2xGU3pNeGZGWlRNak1hQ3dqYnFRVVFBaG9EVlZORU9CeHcyNmtGIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiTEhSIixudWxsLCJFSyIsIjMxIl0sWyJMSFIiLCIyMDI2LTA1LTAzIiwiTEFYIixudWxsLCJWUyIsIjIzIl1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$873 cash",
+      "valueScore": 33
+    },
+    {
+      "id": "google-10",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "SWISS",
+      "operatingAirlines": [
+        "SWISS"
+      ],
+      "flightNumbers": [
+        "LX 243",
+        "LX 40"
+      ],
+      "stops": 1,
+      "durationMinutes": 1570,
+      "departureTime": "2026-05-03 01:20",
+      "arrivalTime": "2026-05-03 16:30",
+      "airports": [
+        "DXB",
+        "ZRH",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A330",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1671,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3BNV0RJME0zeE1XRFF3R2dzSTlwZ0tFQUlhQTFWVFJEZ2NjUGFZQ2c9PSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIlpSSCIsbnVsbCwiTFgiLCIyNDMiXSxbIlpSSCIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkxYIiwiNDAiXV1d",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,671 cash",
+      "valueScore": 32
+    },
+    {
+      "id": "google-1",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Cathay Pacific",
+      "operatingAirlines": [
+        "Cathay Pacific"
+      ],
+      "flightNumbers": [
+        "CX 738",
+        "CX 884"
+      ],
+      "stops": 1,
+      "durationMinutes": 1375,
+      "departureTime": "2026-05-03 22:50",
+      "arrivalTime": "2026-05-04 10:45",
+      "airports": [
+        "DXB",
+        "HKG",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 889,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3REV0Rjek9IeERXRGc0TkJvTENMeTJCUkFDR2dOVlUwUTRISEM4dGdVPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkhLRyIsbnVsbCwiQ1giLCI3MzgiXSxbIkhLRyIsIjIwMjYtMDUtMDQiLCJMQVgiLG51bGwsIkNYIiwiODg0Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$889 cash",
+      "valueScore": 28
+    },
+    {
+      "id": "google-11",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Lufthansa",
+      "operatingAirlines": [
+        "Lufthansa"
+      ],
+      "flightNumbers": [
+        "LH 631",
+        "LH 456"
+      ],
+      "stops": 1,
+      "durationMinutes": 1400,
+      "departureTime": "2026-05-03 00:50",
+      "arrivalTime": "2026-05-03 13:10",
+      "airports": [
+        "DXB",
+        "FRA",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A330",
+        "Boeing 747"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1698,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3RNU0RZek1YeE1TRFExTmhvTENKbXVDaEFDR2dOVlUwUTRISENacmdvPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkZSQSIsbnVsbCwiTEgiLCI2MzEiXSxbIkZSQSIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkxIIiwiNDU2Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,698 cash",
+      "valueScore": 27
+    },
+    {
+      "id": "google-12",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates",
+      "operatingAirlines": [
+        "Emirates"
+      ],
+      "flightNumbers": [
+        "EK 215"
+      ],
+      "stops": 0,
+      "durationMinutes": 980,
+      "departureTime": "2026-05-03 08:55",
+      "arrivalTime": "2026-05-03 14:15",
+      "airports": [
+        "DXB",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A380"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1782,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ1ZGU3pJeE5Sb0xDSkh3Q2hBQ0dnTlZVMFE0SEhDUjhBbz0iLFtbIkRYQiIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkVLIiwiMjE1Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,782 cash",
+      "valueScore": 23
+    },
+    {
+      "id": "google-7",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Turkish Airlines",
+      "operatingAirlines": [
+        "Turkish Airlines"
+      ],
+      "flightNumbers": [
+        "TK 763",
+        "TK 9"
+      ],
+      "stops": 1,
+      "durationMinutes": 1305,
+      "departureTime": "2026-05-03 07:30",
+      "arrivalTime": "2026-05-03 18:15",
+      "airports": [
+        "DXB",
+        "IST",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Airbus A330",
+        "Boeing 777"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 930,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ2xVU3pjMk0zeFVTemthQ3dpdzFnVVFBaG9EVlZORU9CeHdzTllGIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiSVNUIixudWxsLCJUSyIsIjc2MyJdLFsiSVNUIiwiMjAyNi0wNS0wMyIsIkxBWCIsbnVsbCwiVEsiLCI5Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$930 cash",
+      "valueScore": 22
+    },
+    {
+      "id": "google-13",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "ITA",
+      "operatingAirlines": [
+        "ITA"
+      ],
+      "flightNumbers": [
+        "AZ 857",
+        "AZ 620"
+      ],
+      "stops": 1,
+      "durationMinutes": 1345,
+      "departureTime": "2026-05-03 01:50",
+      "arrivalTime": "2026-05-03 13:15",
+      "airports": [
+        "DXB",
+        "FCO",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A321neo",
+        "Airbus A350"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1872,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3RCV2pnMU4zeEJXall5TUJvTENLbTJDeEFDR2dOVlUwUTRISENwdGdzPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkZDTyIsbnVsbCwiQVoiLCI4NTciXSxbIkZDTyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkFaIiwiNjIwIl1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,872 cash",
+      "valueScore": 18
+    },
+    {
+      "id": "google-2",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Qatar Airways",
+      "operatingAirlines": [
+        "Qatar Airways"
+      ],
+      "flightNumbers": [
+        "QR 1003",
+        "QR 739"
+      ],
+      "stops": 1,
+      "durationMinutes": 1150,
+      "departureTime": "2026-05-03 05:50",
+      "arrivalTime": "2026-05-03 14:00",
+      "airports": [
+        "DXB",
+        "DOH",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Boeing 777",
+        "Airbus A350"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 933,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3hSVWpFd01ETjhVVkkzTXprYUN3akIyQVVRQWhvRFZWTkVPQnh3d2RnRiIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkRPSCIsbnVsbCwiUVIiLCIxMDAzIl0sWyJET0giLCIyMDI2LTA1LTAzIiwiTEFYIixudWxsLCJRUiIsIjczOSJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$933 cash",
+      "valueScore": 17
+    },
+    {
+      "id": "google-17",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / United",
+      "operatingAirlines": [
+        "Emirates",
+        "United"
+      ],
+      "flightNumbers": [
+        "EK 225",
+        "UA 1754"
+      ],
+      "stops": 1,
+      "durationMinutes": 1185,
+      "departureTime": "2026-05-03 09:10",
+      "arrivalTime": "2026-05-03 17:55",
+      "airports": [
+        "DXB",
+        "SFO",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A380",
+        "Boeing 737MAX 8 Passenger"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 2422,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3hGU3pJeU5YeFZRVEUzTlRRYUN3ajk0dzRRQWhvRFZWTkVPQnh3L2VNTyIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIlNGTyIsbnVsbCwiRUsiLCIyMjUiXSxbIlNGTyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIlVBIiwiMTc1NCJdXV0=",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$2,422 cash",
+      "valueScore": 14
+    },
+    {
+      "id": "google-8",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Turkish Airlines",
+      "operatingAirlines": [
+        "Turkish Airlines"
+      ],
+      "flightNumbers": [
+        "TK 761",
+        "TK 179"
+      ],
+      "stops": 1,
+      "durationMinutes": 1240,
+      "departureTime": "2026-05-03 02:00",
+      "arrivalTime": "2026-05-03 11:40",
+      "airports": [
+        "DXB",
+        "IST",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Airbus A330",
+        "Boeing 787"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 936,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3RVU3pjMk1YeFVTekUzT1JvTENOSGFCUkFDR2dOVlUwUTRISERSMmdVPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIklTVCIsbnVsbCwiVEsiLCI3NjEiXSxbIklTVCIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIlRLIiwiMTc5Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$936 cash",
+      "valueScore": 11
+    },
+    {
+      "id": "google-18",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates / Virgin Atlantic",
+      "operatingAirlines": [
+        "Emirates",
+        "Virgin Atlantic"
+      ],
+      "flightNumbers": [
+        "EK 31",
+        "VS 23"
+      ],
+      "stops": 1,
+      "durationMinutes": 1260,
+      "departureTime": "2026-05-03 11:25",
+      "arrivalTime": "2026-05-03 21:25",
+      "airports": [
+        "DXB",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Airbus A380",
+        "Boeing 787"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 3996,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ2xGU3pNeGZGWlRNak1hQ3dpeXNSZ1FBaG9EVlZORU9CeHdzckVZIixbWyJEWEIiLCIyMDI2LTA1LTAzIiwiTEhSIixudWxsLCJFSyIsIjMxIl0sWyJMSFIiLCIyMDI2LTA1LTAzIiwiTEFYIixudWxsLCJWUyIsIjIzIl1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$3,996 cash",
+      "valueScore": 9
+    },
+    {
+      "id": "google-3",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "Emirates",
+      "operatingAirlines": [
+        "Emirates"
+      ],
+      "flightNumbers": [
+        "EK 215"
+      ],
+      "stops": 0,
+      "durationMinutes": 980,
+      "departureTime": "2026-05-03 08:55",
+      "arrivalTime": "2026-05-03 14:15",
+      "airports": [
+        "DXB",
+        "LAX"
+      ],
+      "cabinClass": "economy",
+      "equipment": [
+        "Airbus A380"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 1083,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ1ZGU3pJeE5Sb0xDTC9OQmhBQ0dnTlZVMFE0SEhDL3pRWT0iLFtbIkRYQiIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkVLIiwiMjE1Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$1,083 cash",
+      "valueScore": 6
+    },
+    {
+      "id": "google-19",
+      "source": "google",
+      "type": "cash",
+      "origin": "DXB",
+      "destination": "LAX",
+      "airline": "British Airways / American",
+      "operatingAirlines": [
+        "British Airways",
+        "American"
+      ],
+      "flightNumbers": [
+        "BA 106",
+        "AA 135"
+      ],
+      "stops": 1,
+      "durationMinutes": 1260,
+      "departureTime": "2026-05-03 01:30",
+      "arrivalTime": "2026-05-03 11:30",
+      "airports": [
+        "DXB",
+        "LHR",
+        "LAX"
+      ],
+      "cabinClass": "business",
+      "equipment": [
+        "Boeing 777",
+        "Boeing 787"
+      ],
+      "points": null,
+      "pointsProgram": null,
+      "cashPrice": 4061,
+      "taxes": 0,
+      "currency": "USD",
+      "cppValue": null,
+      "roameScore": null,
+      "availableSeats": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJWkZsUFpFczBjbkpUYTFsQlJXZEtYMUZDUnkwdExTMHRMUzB0TFhscFltSnhNMEZCUVVGQlIyMVZkMFpWVDBoVGRYVkJFZ3RDUVRFd05ueEJRVEV6TlJvTENMamtHQkFDR2dOVlUwUTRISEM0NUJnPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkxIUiIsbnVsbCwiQkEiLCIxMDYiXSxbIkxIUiIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIkFBIiwiMTM1Il1dXQ==",
+      "fareClass": "One way",
+      "realCpp": null,
+      "cppRating": null,
+      "cashComparable": null,
+      "cashSource": null,
+      "sweetSpotMatch": null,
+      "fundingPath": null,
+      "canAfford": true,
+      "affordDetails": "$4,061 cash",
+      "valueScore": 5
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "title": "UNITED → UA / UA",
+      "subtitle": "first class via DXB→EWR→LGA→LAX",
+      "details": [
+        "✈️ 163 / 1967",
+        "⏱ 30h20m, 1 stop",
+        "💰 Cash comparable: $8,000 (est.)",
+        "✅ Transfer 295,000 Chase UR → 295,000 miles (instant)"
+      ],
+      "totalCost": "295,000 pts + $60",
+      "cppValue": "2.7¢/pt",
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "badgeText": "#1 BEST VALUE",
+      "badgeColor": "emerald"
+    },
+    {
+      "rank": 2,
+      "title": "UNITED → UA / UA",
+      "subtitle": "business class • DXB→EWR→EWR→LAX",
+      "details": [
+        "✈️ 163 / 1321",
+        "🏆 Value Score: 44/100",
+        "📊 0.5¢/pt vs $2,138 cash",
+        "⏱ 24h2m"
+      ],
+      "totalCost": "395,000 pts + $60",
+      "cppValue": "0.5¢/pt",
+      "bookingUrl": "https://www.united.com/ual/en/us/flight-search/book-a-flight/results/awd",
+      "badgeText": "#2 BEST PRODUCT",
+      "badgeColor": "accent"
+    },
+    {
+      "rank": 3,
+      "title": "Cash economy at $672",
+      "subtitle": "KLM • 1 stop",
+      "details": [
+        "✈️ KL 428 / KL 601",
+        "💡 Points get 2.7¢/pt value here — use them"
+      ],
+      "totalCost": "$672",
+      "cppValue": null,
+      "bookingUrl": "https://www.google.com/travel/flights/booking?token=WyJDalJJZG5kaFpUWTRSMUpOYTI5QlJURnFXWGRDUnkwdExTMHRMUzB0TFhsc1pYb3lNRUZCUVVGQlIyMVZkMFpSU0ZwNVoyOUJFZ3RMVERReU9IeExURFl3TVJvTENLaU1CQkFDR2dOVlUwUTRISENvakFRPSIsW1siRFhCIiwiMjAyNi0wNS0wMyIsIkFNUyIsbnVsbCwiS0wiLCI0MjgiXSxbIkFNUyIsIjIwMjYtMDUtMDMiLCJMQVgiLG51bGwsIktMIiwiNjAxIl1dXQ==",
+      "badgeText": "#3 SAVE POINTS",
+      "badgeColor": "gold"
+    }
+  ],
+  "insights": [],
+  "routeSweetSpots": [],
+  "warnings": [
+    "⚠️ Chase UR → Emirates Skywards transfers ENDED Oct 2025",
+    "⚠️ Virgin Atlantic does NOT book Emirates flights",
+    "⚠️ Alaska only has 47,660 — enough for ~1 business OW or 1 economy RT"
+  ]
+}
